@@ -10,7 +10,7 @@ import calendar
 class Teacher(object):
     loop = True
     ''' Create instance of a teacher for salary calculations
-    vage: cost per lesson for a given teacher
+    wage: cost per lesson for a given teacher
     days: list of days when lessons were conducted
     salary: cost for lessons for a given teacher
     extra_work: additional work cost
@@ -24,7 +24,7 @@ class Teacher(object):
         self.extra_work = 0
         self.total = 0
         print()
-        print(f'Преподаватель {self.name}, ставка {self.vage}\n')
+        print(f'Преподаватель {self.name}, ставка {self.wage}\n')
 
     def __repr__(self):
         print(f'Преподаватель {self.name}, ставка {self.wage}\n')
@@ -154,7 +154,7 @@ def main():
 def create_teacher():
     ''' Creates Teacher instances, asks for args from user'''
     name = input('Имя преподавателя: ')
-    # Check for valid input data type for param: vage
+    # Check for valid input data type for param: wage
     while True:
         wage = input('Ставка: ')
         if check_int(wage):
