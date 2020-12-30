@@ -16,9 +16,9 @@ class Teacher(object):
     extra_work: additional work cost
     total: total cost including salary and 
     '''
-    def __init__(self, name: str, vage: int):
+    def __init__(self, name: str, wage: int):
         self.name = name
-        self.vage = vage
+        self.wage = wage
         self.days = []
         self.salary = 0
         self.extra_work = 0
@@ -27,7 +27,7 @@ class Teacher(object):
         print(f'Преподаватель {self.name}, ставка {self.vage}\n')
 
     def __repr__(self):
-        print(f'Преподаватель {self.name}, ставка {self.vage}\n')
+        print(f'Преподаватель {self.name}, ставка {self.wage}\n')
 
     def options(self):
         ''' Main teacher function, gives options for salary calculation'''
@@ -89,7 +89,7 @@ class Teacher(object):
     def count_salary(self):
         ''' Counts total salary for the teacher'''
         if not self.salary:
-            salary = self.vage * len(self.days)
+            salary = self.wage * len(self.days)
             self.salary += salary
         self.total = self.salary + self.extra_work
         print()
@@ -101,8 +101,8 @@ class Teacher(object):
         work = input('Название занятости: ')
         # Check for correct input data type: number
         while True:
-            vage = input('Оплата: ')
-            if check_int(vage):
+            wage = input('Оплата: ')
+            if check_int(wage):
                 break
         # Check for correct input data type: number
         while True:
@@ -110,7 +110,7 @@ class Teacher(object):
             if check_int(count):
                 break
 
-        self.extra_work += int(vage) * int(count)
+        self.extra_work += int(wage) * int(count)
         print()
         print(f'Преподавателю {self.name} добавлена занятость {work}\n')
 
@@ -129,7 +129,7 @@ class Teacher(object):
         ''' Automatically logs info to file '''
         with codecs.open('log.txt', 'a', 'utf-8') as log:
             data = f'Дата: {str(date.today())}\n' \
-                   f'Учитель {self.name}, ставка {self.vage}\n' \
+                   f'Учитель {self.name}, ставка {self.wage}\n' \
                    f'Дни занятий: {self.days}\n' \
                    f'ЗП: {self.total}\n\n'
             log.write(data)
@@ -156,12 +156,12 @@ def create_teacher():
     name = input('Имя преподавателя: ')
     # Check for valid input data type for param: vage
     while True:
-        vage = input('Ставка: ')
-        if check_int(vage):
+        wage = input('Ставка: ')
+        if check_int(wage):
             break
 
     # Create an instance with a given args and start loop
-    t = Teacher(name, int(vage))
+    t = Teacher(name, int(wage))
     t.options()
 
 
