@@ -10,7 +10,7 @@ So I stopped on Programming, and Python became my first language.
 I have no educational background in this department,  
 but I'm keepin up, using Universities lectures as well as some great free web resources like Codeacademy, FreeCodeCamp and Codewars.  
 
-```This repo is a  of portfolio projects that I've done so far as my programming practice.  ```
+```This repo is a container of portfolio projects that I've done so far as my programming practice.  ```
 
 
 **FreeCodeCamp challenges that I've completed:**
