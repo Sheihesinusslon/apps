@@ -30,4 +30,12 @@ My finished courses are listed down bellow.
 * [Budget app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Budget%20app)
 * [Polygon Area Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Polygon%20area%20calculator)
 * [Probability Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Probability%20calculator)
-
+  
+  
+  
+  
+### Uni courses I took as a listener:
+  
+* [Computer science. Algorythms and Data Structures on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/KdZ4HF1SrFs)
+* [Practice of programming on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/us7y0UhTq0s)
+* [CS50 2020, Introduction to Computer Sciense. David J. Malan, Harvard University](https://youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)
