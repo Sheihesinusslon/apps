@@ -28,5 +28,5 @@ but I'm keepin up, using Universities lectures as well as some great free web re
 * [Time calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Time%20calculator)
 * [Budget app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Budget%20app)
 * [Polygon Area Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Polygon%20area%20calculator)
-* [Probability Calculator]()
+* [Probability Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Probability%20calculator)
 
