@@ -1,6 +1,6 @@
 ```This repo is a container of portfolio projects that I've done so far as my programming practice.  ```  
   
-#### Hi there!
+# Hi there!
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
 Recently I've started learning Programming and Computer Sciense. Some time ago I was contemplating about changing my professinal field.  
@@ -11,13 +11,14 @@ So I stopped on Programming, and Python became my first language.
 
 I have no educational background in this department,  
 but I'm keepin up, using Universities lectures as well as some great free web resources like Codeacademy, FreeCodeCamp and Codewars.  
+
   
   
   
   
-### Courses
+## Courses
   
-## FreeCodeCamp
+### FreeCodeCamp
 ![Certificate](https://user-images.githubusercontent.com/75010755/107735189-33bf2000-6d10-11eb-8a0f-2112ec224483.JPG)  
 [Link to the certificate](https://www.freecodecamp.org/certification/sheihesinusslon/scientific-computing-with-python-v7)  
   
