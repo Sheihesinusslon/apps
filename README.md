@@ -27,6 +27,6 @@ but I'm keepin up, using Universities lectures as well as some great free web re
 * [Arithmetic formatter](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Arithmetic%20formatter)
 * [Time calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Time%20calculator)
 * [Budget app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Budget%20app)
-* [Polygon Area Calculator]()
+* [Polygon Area Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Polygon%20area%20calculator)
 * [Probability Calculator]()
 
