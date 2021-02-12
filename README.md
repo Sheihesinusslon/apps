@@ -1,6 +1,6 @@
 ```This repo is a container of portfolio projects that I've done so far as my programming practice.  ```  
   
-##### Hi there!
+#### Hi there!
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
 Recently I've started learning Programming and Computer Sciense. Some time ago I was contemplating about changing my professinal field.  
