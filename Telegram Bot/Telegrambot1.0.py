@@ -7,8 +7,8 @@ bot = telebot.TeleBot(config.TOKEN)
 
 
 class Client:
-	signed = set()
-	waiting = set()
+	signed = []
+	waiting = []
 
 	def __init__(self, id):
 		self.id = id
@@ -50,7 +50,7 @@ def reply(message):
 
 	if message.text == "Записаться на Разговорный Клуб":
 		if not Client.id in Client.signed:
-			Client.signed.add(Client.id)
+			Client.signed.append(Client.id)
 			print(message.from_user.username)
 			bot.send_message(Client.id, "Отлично, ждём", reply_markup=Client.show_keyboard(3))
 
