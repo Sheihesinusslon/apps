@@ -33,7 +33,7 @@ My finished courses are listed down bellow.
   
   
 ## Also
-![SoloLearn Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-787013357)  
+![SoloLearn Certificate](https://user-images.githubusercontent.com/75010755/109377375-05c70780-78dc-11eb-828e-561bffe4dfd5.JPG)  
 [Link to the certificate](https://www.sololearn.com/certificates/course/en/21208235/1159/landscape/png)
   
   
