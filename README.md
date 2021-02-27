@@ -32,6 +32,9 @@ My finished courses are listed down bellow.
 * [Probability Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Probability%20calculator)
   
   
+## Also
+![SoloLearn Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-787013203)
+[Link to the certificate](https://www.sololearn.com/certificates/course/en/21208235/1159/landscape/png)
   
   
 ### Uni courses I took as a listener:
