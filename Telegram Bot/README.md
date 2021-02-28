@@ -19,5 +19,5 @@ updates about the event and get notifications from the bot with a suggestion to 
 If some users refuse to join and sign out, the bot sends a suggestion to join to a first user in a waiting list
 - if minimal event capacity hasn't been reached on the event day, the bot sends a message to an event manager with an option to
 cancel the event. If the manager approves, the bot sends notifications to all signed up users about an event cancellation
-- the bot sends info to the event manager about the number of participants every 6 hours and clears all lists the next day after the event
+- the bot sends info to the event manager about the number of participants every 6 hours and clears all lists the next day after the event  
 ```Python + aiogram, asyncio, aioschedule, sqlite3, VK api used```
