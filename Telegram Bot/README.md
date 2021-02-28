@@ -5,7 +5,7 @@ registration of students for a Speaking club event, that is held at
 my current work place, Wake Up English school.
   
 # Version 1.0
-Bot can sign up and sign out a user for the event.
+Bot can sign up and sign out a user for the event.  
 ```Python + Telebot used```
   
   
