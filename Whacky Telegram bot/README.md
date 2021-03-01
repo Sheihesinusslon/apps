@@ -19,3 +19,4 @@ Bot has several features:
 * it can tell you a horoscope for the day if you need something else   
 <img src="https://user-images.githubusercontent.com/75010755/109514752-6a8a8980-7ab7-11eb-9bd7-3e5fdade43d3.jpg" width="240" height="420">
 <img src="https://user-images.githubusercontent.com/75010755/109514757-6bbbb680-7ab7-11eb-88d1-0984c8c40006.jpg" width="240" height="420">
+  
