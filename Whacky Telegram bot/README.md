@@ -6,7 +6,7 @@ It's dedicated to students of Wake Up English School
   
 ### Version 1.0  
 Bot has several features:  
-![](https://user-images.githubusercontent.com/75010755/109514760-6cece380-7ab7-11eb-9959-dd719f6e1487.jpg)
+<img src="https://user-images.githubusercontent.com/75010755/109514760-6cece380-7ab7-11eb-9959-dd719f6e1487.jpg" width="240" height="420">
 ![](https://user-images.githubusercontent.com/75010755/109514741-68282f80-7ab7-11eb-82bc-2000ba0ad34d.jpg)  
 
 - it can send a warm hello voice message  to you  
