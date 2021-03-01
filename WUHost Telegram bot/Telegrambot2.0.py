@@ -179,7 +179,7 @@ async def scheduler(interval):
 	 notifies subscribed users about event updates, checks for signed out users, sends info to
 	 an event manager, suggests the manager to cancel the event if very few people signed up'''
 	aioschedule.every().day.at('18:00').do(notify)
-	aioschedule.every().minute.do(Client.clear_lists)
+	aioschedule.every().monday.do(Client.clear_lists)
 	aioschedule.every().minute.do(check_vacant_spot)
 	aioschedule.every(6).hours.do(send_info_to_manager)
 	aioschedule.every().saturday.at('10:00').do(cancel_event)

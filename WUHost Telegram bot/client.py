@@ -8,7 +8,7 @@ class ClientDispatcher:
 	def __init__(self):
 		self.signed = []
 		self.waiting = []
-		self.capacity = 13
+		self.capacity = 1
 
 	def report(self):
 		''' Info about signed clients that is being sent to event manager by the bot '''
