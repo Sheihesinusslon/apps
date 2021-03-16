@@ -11,8 +11,9 @@ So I stopped on Programming, and Python became my first language.
 
 
 I have no educational background in this department,  
-but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik and Codewars.  
-My finished courses are listed down bellow.  
+but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik and Codewars.
+  
+My projects and finished courses are listed down bellow.  
   
   
 ## My home projects  
