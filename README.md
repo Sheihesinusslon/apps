@@ -11,7 +11,7 @@ So I stopped on Programming, and Python became my first language.
 
 
 I have no educational background in this department,  
-but I'm keepin up, using Universities lectures as well as some great free web resources like Codeacademy, FreeCodeCamp and Codewars.  
+but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik and Codewars.  
 My finished courses are listed down bellow.  
    
   
@@ -33,12 +33,12 @@ My finished courses are listed down bellow.
   
   
 ## Stepik
-![CSS Certificate](https://user-images.githubusercontent.com/75010755/109377375-05c70780-78dc-11eb-828e-561bffe4dfd5.JPG)  
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)  
 [Link to the certificate](https://stepik.org/cert/907513)
   
   
 ### Edu courses I took as a listener:
-* []()
+* [Programming on Python 3. Ivan Bibilov, Computer Science Center](https://youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy)
 * [Computer science. Algorythms and Data Structures on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/KdZ4HF1SrFs)
 * [Practice of programming on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/us7y0UhTq0s)
 * [CS50 2020, Introduction to Computer Sciense. David J. Malan, Harvard University](https://youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)
