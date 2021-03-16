@@ -13,8 +13,16 @@ So I stopped on Programming, and Python became my first language.
 I have no educational background in this department,  
 but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik and Codewars.  
 My finished courses are listed down bellow.  
-   
   
+  
+## My home projects  
+### Back end development
+* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot)
+* [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot)
+* [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app)
+### Games, many much fun
+* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers)
+* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake)
   
   
 ## Courses
