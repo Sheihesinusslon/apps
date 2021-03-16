@@ -32,13 +32,13 @@ My finished courses are listed down bellow.
 * [Probability Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Probability%20calculator)
   
   
-## Also
-![SoloLearn Certificate](https://user-images.githubusercontent.com/75010755/109377375-05c70780-78dc-11eb-828e-561bffe4dfd5.JPG)  
-[Link to the certificate](https://www.sololearn.com/certificates/course/en/21208235/1159/landscape/png)
+## Stepik
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/109377375-05c70780-78dc-11eb-828e-561bffe4dfd5.JPG)  
+[Link to the certificate](https://stepik.org/cert/907513)
   
   
-### Uni courses I took as a listener:
-  
+### Edu courses I took as a listener:
+* []()
 * [Computer science. Algorythms and Data Structures on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/KdZ4HF1SrFs)
 * [Practice of programming on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/us7y0UhTq0s)
 * [CS50 2020, Introduction to Computer Sciense. David J. Malan, Harvard University](https://youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)
