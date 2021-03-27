@@ -44,7 +44,10 @@ My projects and finished courses are listed down bellow.
 ## Stepik
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)  
 [Link to the certificate](https://stepik.org/cert/907513)
-  
+
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/112714384-28543c80-8eeb-11eb-964c-4fc9488adfc0.jpg)
+[Link to the certificate](https://stepik.org/cert/922066)
+
   
 ### Edu courses I took as a listener:
 * [Programming on Python 3. Ivan Bibilov, Computer Science Center](https://youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy)
