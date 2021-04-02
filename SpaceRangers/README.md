@@ -9,4 +9,4 @@ my all time favourite game "Space Rangers" by the Russian company Elemental Game
 
 ```Python + Pygame used```
   
-https://user-images.githubusercontent.com/75010755/113414593-044e9a80-93c6-11eb-9a44-37f4fba24d83.jpg
+![spacerangers](https://user-images.githubusercontent.com/75010755/113414593-044e9a80-93c6-11eb-9a44-37f4fba24d83.jpg)
