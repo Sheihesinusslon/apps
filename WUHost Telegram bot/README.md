@@ -22,6 +22,6 @@ cancel the event. If the manager approves, the bot sends notifications to all si
 - the bot sends info to the event manager about the number of participants every 6 hours and clears all lists the next day after the event  
 ```Python + aiogram, asyncio, aioschedule, sqlite3, VK api used```  
   
-<img src="https://user-images.githubusercontent.com/75010755/113416761-a40e2780-93ca-11eb-8b43-b04693928fa2.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416760-a3759100-93ca-11eb-8fd8-028d66184256.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416759-a2dcfa80-93ca-11eb-8cdc-1922c358b3aa.jpg" width="240" height="420">  
+<img src="https://user-images.githubusercontent.com/75010755/113416761-a40e2780-93ca-11eb-8b43-b04693928fa2.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416759-a2dcfa80-93ca-11eb-8cdc-1922c358b3aa.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416739-9ce71980-93ca-11eb-878f-d18936a4e728.jpg" width="240" height="420">   
   
-<img src="https://user-images.githubusercontent.com/75010755/113416757-a2446400-93ca-11eb-89d2-2b7c45809af9.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416739-9ce71980-93ca-11eb-878f-d18936a4e728.jpg" width="240" height="420">
+<img src="https://user-images.githubusercontent.com/75010755/113416757-a2446400-93ca-11eb-89d2-2b7c45809af9.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/113416760-a3759100-93ca-11eb-8fd8-028d66184256.jpg" width="240" height="420">
