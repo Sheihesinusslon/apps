@@ -12,7 +12,7 @@ Bot has several features:
 <img src="https://user-images.githubusercontent.com/75010755/109514760-6cece380-7ab7-11eb-9959-dd719f6e1487.jpg" width="240" height="420"> <img src="https://user-images.githubusercontent.com/75010755/109514741-68282f80-7ab7-11eb-82bc-2000ba0ad34d.jpg" width="240" height="420"> 
   
 * it can send a warm hello voice message  to you  
-* it can tell you Word of the Day, parsing two renowned resourses for learning English Vocabulary,  
+* it can tell you Word of the Day, scriping two renowned resourses for learning English Vocabulary,  
 [Urban Dictionary](https://www.urbandictionary.com/) and [Merriam-Webster Dictionary](https://www.merriam-webster.com/word-of-the-day)  
 <img src="https://user-images.githubusercontent.com/75010755/109514748-69595c80-7ab7-11eb-873f-653c429a6320.jpg" width="240" height="420">  
   
