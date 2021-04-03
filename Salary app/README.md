@@ -1,7 +1,7 @@
 # Hello World!
 
-This app was my first prominent program, done all by myself for work purposes.
-It serves only for calculating salary for workers by taking their wage rates, work days and extra work wages
+This app was my first prominent program, created for work purposes.
+It serves only for calculating workers salary by taking their wage rates, work days and extra work wages
 as input. It implies only my personal use and thus has no GUI (can be used via console).
 
 ```Python used```
