@@ -1,4 +1,4 @@
-```This repo is a container of portfolio projects that I've done so far as my programming practice.  ```  
+```This repo is a container of portfolio projects that I've done so far as part of my programming practice.  ```  
   
 # Hi there!
 
