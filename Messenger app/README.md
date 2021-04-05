@@ -1,4 +1,4 @@
-Hello World! 
+# Hello World! 
 
 This project is an implenentation of simple Messenger app,
 containing Server part and Client part, using GUI,
