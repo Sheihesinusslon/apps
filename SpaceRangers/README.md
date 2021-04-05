@@ -1,4 +1,4 @@
-Hello World!
+# Hello World!
 
 This game is an implementation of old school arcade game "Space Invaders", 
 done for training purposes by following 'Tech with Tim' Tutorial
