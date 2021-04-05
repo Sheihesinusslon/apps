@@ -1,4 +1,4 @@
-```This repo is a container of portfolio projects that I've done so far as my programming practice.  ```  
+```This repo is a container of portfolio projects that I've done so far as part of my programming practice.  ```  
   
 # Hi there!
 
@@ -18,6 +18,7 @@ My projects and finished courses are listed down bellow.
   
 ## My home projects  
 ### Main
+* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app)
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot)
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app)
