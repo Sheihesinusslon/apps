@@ -1,7 +1,8 @@
 # Hello World!
 
 Whacky bot is a Telegram bot developed just for fun.  
-It's dedicated to students of Wake Up English School  
+It's dedicated to students of Wake Up English School.  
+*Deployed on Heroku*  
   
   
 ### Version 1.0  
