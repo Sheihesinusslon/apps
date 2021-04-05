@@ -50,8 +50,12 @@ def main():
 				bot.send_voice(call.message.chat.id, voice=voice, reply_markup=start_keyboard())
 
 		if call.data == 'Word':
-			msg = word_of_the_day()
-			bot.send_message(call.message.chat.id, msg, parse_mode='html', reply_markup=start_keyboard())
+			try:
+				msg = word_of_the_day()
+			except:
+				msg = 'Feel bad now. Try later ...'
+			finally:
+				bot.send_message(call.message.chat.id, msg, parse_mode='html', reply_markup=start_keyboard())
 
 	bot.polling(none_stop=True, interval=0)
 
