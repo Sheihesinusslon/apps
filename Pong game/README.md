@@ -1,4 +1,4 @@
-Hello World!
+# Hello World!
 
 This game is an implementation of some legendary old school game, 
 done for training purposes by following CS50's Game Track Tutorial
