@@ -17,6 +17,8 @@ My projects and finished courses are listed down bellow.
   
   
 ## My home projects  
+### Web
+* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary)
 ### Main
 * [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app)
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot)
