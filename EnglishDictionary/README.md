@@ -7,6 +7,8 @@ The app uses a python lib 'PyDictionary' for it's purposes.
   
 ``` Python + Django, PyDictionary used ```  
   
+ [Deployed on Heroku](https://wu-english-dictionary.herokuapp.com/)
+  
   
 ### Main/title view
 ![dict1](https://user-images.githubusercontent.com/75010755/113866903-87049a80-97b6-11eb-89d9-7d72fa3c4f2e.jpg)  
