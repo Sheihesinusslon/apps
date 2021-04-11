@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block word %}{{ word.title() }}{% endblock %}
+{% block definition %}
+    {% for key, values in definition %}
+       <p>{{ key.upper() }}</p>
+            {% for meaning in values %}
+            <ul>
+                <li>{{ meaning.capitalize() }}</li>
+            </ul>
+            {% endfor %}
+    {% endfor %}
+{% endblock %}
+
+{% block synonyms %}{{ synonyms.title() }}{% endblock %}
+
+{% block antonyms %}{{ antonyms.title() }}{% endblock %}
