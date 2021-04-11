@@ -11,7 +11,7 @@ The app uses a python lib 'PyDictionary' for it's purposes.
 ``` Python + Django, PyDictionary used ```  
   
 ### Ver 2.0  
-Rewrote the project with Flask, because it's only 3 views, literally one working file
+Rewrote the project with Flask, because it's only 3 views, literally one working file  
 ``` Python + Flask, PyDictionary used ```
   
 ### Main/title view
