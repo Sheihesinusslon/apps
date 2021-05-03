@@ -4,7 +4,7 @@
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
   
-Last year I started learning Programming and Computer Science. I was contemplating changing my professional field.  
+Last year I started learning Programming and Computer Science. I was contemplating about changing my professional field.  
 I thought about learning something new to me, that would be up-to-date, useful, and challenging. Something that wouldn't
 lose its utility and relevance in years.  
 So I chose Programming, and Python became my first language.  
