@@ -53,7 +53,7 @@ My projects and finished courses are listed down bellow.
   
   
 ## HackerRank  
-![HackerRank Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-831216439)  
+![HackerRank1](https://user-images.githubusercontent.com/75010755/116873798-eff9f980-ac20-11eb-9c76-d049c72d769b.png)  
 [Link to the certificate](https://www.hackerrank.com/certificates/483474b92687)  
   
   
