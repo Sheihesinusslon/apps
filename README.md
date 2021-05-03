@@ -11,7 +11,7 @@ So I chose Programming, and Python became my first language.
 
 
 I have no educational background in this department,  
-but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik and Codewars.
+but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, Codewars and HackerRank.
   
 My projects and finished courses are listed down bellow.  
   
@@ -50,7 +50,12 @@ My projects and finished courses are listed down bellow.
 
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/112714384-28543c80-8eeb-11eb-964c-4fc9488adfc0.jpg)
 [Link to the certificate](https://stepik.org/cert/922066)
-
+  
+  
+## HackerRank  
+![HackerRank Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-831216439)  
+[Link to the certificate](https://www.hackerrank.com/certificates/483474b92687)  
+  
   
 ### Edu courses I took as a listener:
 * [Programming on Python 3. Ivan Bibilov, Computer Science Center](https://youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy)
