@@ -11,7 +11,8 @@ So I chose Programming, and Python became my first language.
 
 
 I have no educational background in this department,  
-but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, Codewars and HackerRank.
+but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, Codewars and HackerRank.  
+https://www.codewars.com/users/Sheihesinusslon/badges/large
   
 My projects and finished courses are listed down bellow.  
   
