@@ -32,6 +32,12 @@ My projects and finished courses are listed down bellow.
   
   
 ## Courses
+
+### Coursera
+  
+![Coursera_page-0001](https://user-images.githubusercontent.com/75010755/117824586-485f7580-b277-11eb-9674-fc527adca8e8.jpg)
+[Link to the certificate](https://coursera.org/share/38ce97c10d43d57724876d61b0b24f05)  
+  
   
 ### FreeCodeCamp
 ![Certificate](https://user-images.githubusercontent.com/75010755/107735189-33bf2000-6d10-11eb-8a0f-2112ec224483.JPG)  
@@ -46,7 +52,7 @@ My projects and finished courses are listed down bellow.
 * [Probability Calculator](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp/Probability%20calculator)
   
   
-## Stepik
+### Stepik
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)  
 [Link to the certificate](https://stepik.org/cert/907513)
 
@@ -54,7 +60,7 @@ My projects and finished courses are listed down bellow.
 [Link to the certificate](https://stepik.org/cert/922066)
   
   
-## HackerRank  
+### HackerRank  
 ![HackerRank1](https://user-images.githubusercontent.com/75010755/116873798-eff9f980-ac20-11eb-9c76-d049c72d769b.png)  
 [Link to the certificate](https://www.hackerrank.com/certificates/483474b92687)  
   
