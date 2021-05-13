@@ -20,15 +20,15 @@ My projects and finished courses are listed down bellow.
   
 ## My home projects  
 ### Web
-* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary)
+* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)
 ### Main
-* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app)
-* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot)
-* [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot)
-* [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app)
+* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app) (TKinter, sqlite3)
+* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK api)
+* [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
+* [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
 ### Games, many much fun
-* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers)
-* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake)
+* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
+* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
   
   
 ## Courses
