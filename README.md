@@ -55,7 +55,7 @@ My projects and finished courses are listed down bellow.
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/112714384-28543c80-8eeb-11eb-964c-4fc9488adfc0.jpg)  
 [Link to the certificate](https://stepik.org/cert/922066)  
   
-![CSS Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-854768493)  
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/120816995-f6e69580-c559-11eb-9f00-ddd5d89f9053.jpg)  
 [link to the certificate](https://stepik.org/cert/998032)  
   
   
