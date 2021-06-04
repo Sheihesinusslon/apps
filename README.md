@@ -49,11 +49,14 @@ My projects and finished courses are listed down bellow.
   
   
 ### Stepik
-![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)  
-[Link to the certificate](https://stepik.org/cert/907513)
-
-![CSS Certificate](https://user-images.githubusercontent.com/75010755/112714384-28543c80-8eeb-11eb-964c-4fc9488adfc0.jpg)
-[Link to the certificate](https://stepik.org/cert/922066)
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)   
+[Link to the certificate](https://stepik.org/cert/907513)  
+  
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/112714384-28543c80-8eeb-11eb-964c-4fc9488adfc0.jpg)  
+[Link to the certificate](https://stepik.org/cert/922066)  
+  
+![CSS Certificate](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-854768493)  
+[link to the certificate](https://stepik.org/cert/998032)  
   
   
 ### HackerRank  
