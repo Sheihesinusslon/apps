@@ -29,7 +29,7 @@ My projects and finished courses are listed down bellow.
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
 ### JetBrains Academy
-* [JetBrains Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
+* [Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
 ### Games, many much fun
 * [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
 * [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
