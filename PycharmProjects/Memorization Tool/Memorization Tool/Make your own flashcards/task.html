@@ -1,0 +1,215 @@
+<h2>Description</h2>
+
+<p>A good memorizing tool can boost your short and long-term memory. If you tried to learn a foreign language, you probably know what a flashcard is. It is an excellent device to remember facts<em>. </em>Flashcards alone are not enough, we need a special technique.</p>
+
+<p>Let's create our flashcards first. A flashcard is a piece of paper with a question on one side and the answer on the other. Let's assume we need to memorize the capital cities of various countries. Write the country name on one side and the capital on the other.</p>
+
+<h2>Objectives</h2>
+
+<p>In this stage, we need to create our first flashcards.<br>
+When the program starts, it should print the menu below. It is our main menu (1):</p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit</code></pre>
+
+<p>If <code class="java">1</code> is entered, the program should print the following sub-menu (2):</p>
+
+<pre><code class="language-no-highlight">1. Add a new flashcard
+2. Exit</code></pre>
+
+<p>By choosing the <code class="java">Add a new flashcard</code> option, a user is prompted to enter a <code class="java">Question</code> and an <code class="java">Answer</code>. Once they are entered, the program automatically returns to the sub-menu (2). Iterate this process every time a user wants to add a new flashcard.</p>
+
+<p><strong>Flashcard practice:</strong></p>
+
+<p>The <code class="java">Practice flashcards</code> option in the main menu (1) should print all the questions and answers that have been added previously. If there are no flashcards, print <code class="java">There is no flashcard to practice!</code> and return to the main menu (1).</p>
+
+<p>Your flashcard should appear on the screen in the following way:</p>
+
+<pre><code class="language-no-highlight">Question: {your question}
+Please press "y" to see the answer or press "n" to skip:</code></pre>
+
+<p>If <code class="java">y</code> is entered, the program should output <code class="java">Answer: {your answer}</code> and go to the next flashcard. If there are no flashcards to show, return to the main menu (1).</p>
+
+<p>If <code class="java">n</code> is entered, skip to the next flashcard. If there are no flashcards to show, return to the main menu (1).</p>
+
+<p>Once the program has reached the end of a flashcard list, return to the main menu (1).</p>
+
+<p>Please keep in mind the following:</p>
+
+<ul>
+	<li>In case of the wrong input, output the following message: <code class="java">{wrong key} is not an option</code>. Wait for the right input.</li>
+	<li>Your questions and answers must be non-empty values. Otherwise, wait for the input.</li>
+	<li>Don't forget about the goodbye message. Output <code class="java">Bye!</code> every time a user exits the program.</li>
+</ul>
+
+<h2>Examples</h2>
+
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+There is no flashcard to practice!
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the capital city of Brazil?
+Answer:
+&gt; Brasilia
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the capital city of Lebanon?
+Answer:
+&gt; Beirut
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: What is the capital city of Brazil?
+Please press "y" to see the answer or press "n" to skip:
+&gt; y
+
+Answer: Brasilia
+
+Question: What is the capital city of Lebanon?
+Please press "y" to see the answer or press "n" to skip:
+&gt; y
+
+Answer: Beirut
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the capital city of Montenegro?
+Answer:
+&gt; Podgorica
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: What is the capital city of Brazil?
+Please press "y" to see the answer or press "n" to skip:
+&gt; y
+
+Answer: Brasilia
+
+Question: What is the capital city of Lebanon?
+Please press "y" to see the answer or press "n" to skip:
+&gt; n
+
+
+Question: What is the capital city of Montenegro?
+Please press "y" to see the answer or press "n" to skip:
+&gt; y
+
+Answer: Podgorica
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!
+
+</code></pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 5
+
+5 is not an option
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; we
+
+we is not an option
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+
+1. Add a new flashcard
+2. Exit
+&gt; 3
+
+3 is not an option
+
+1. Add a new flashcard
+2. Exit
+&gt; 0w
+
+0w is not an option
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt;
+Question:
+&gt;
+Question:
+&gt; What is the capital city of Japan?
+Answer:
+&gt;
+
+Answer:
+&gt;
+
+Answer:
+&gt; Tokyo
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!
+
+</code></pre>

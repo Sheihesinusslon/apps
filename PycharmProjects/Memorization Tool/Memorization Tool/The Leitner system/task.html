@@ -1,0 +1,264 @@
+<h2>Description</h2>
+
+<p>We know how to create flashcards, but it is not enough. At the beginning of the project, we mentioned a special technique that can help us with our task of creating a useful memorizing tool. Don't worry, we are about to take off and our flashcards will help. We are going to implement the <strong>Leitner system</strong> in our program. In short, it introduces the concept of spaced repetition proposed by Sebastian Leitner, a German scientist. Leitner's system suggests reviewing cards at increased intervals. </p>
+
+<p>We can divide the memorization process into several parts. First, you create several boxes (usually from 3 to 5) that will store your flashcards. You mark each box with time periods that show how frequently the cards should be reviewed. For example, Box 1 will contain the most difficult cards, so they should be reviewed every day; Box 2 will have easier cards that you will check more rarely, every two days, and so on.</p>
+
+<p>Next, you start learning and arranging the flashcards. You go through multiple Sessions. During Session 1, all your cards are in Box 1. You answer questions on these cards. If you are right, the card moves to Box 2 — that means that you don't need to repeat the information on the card so often. If your answer is wrong, your card stays in Box 1 — that means that you will see this card more frequently. When you reach Session 2, you answer questions on the cards both in Box 1 and Box 2. During Session 3, you study the cards in all three boxes. Again, every time you get a card wrong, you move it to Box 1. If you get the card right, you move it to the next box.</p>
+
+<p style="text-align: center;"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Leitner_system_animation.gif/250px-Leitner_system_animation.gif"></p>
+
+<p>In this stage, there are three boxes, and if you give the correct answers to the cards in the third box, it means you've learned them, and you don't need those cards anymore, so you can remove them from the database.</p>
+
+<p>If you want to read about this method in a little more detail, refer to the <a target="_blank" href="https://www.mindedge.com/learning-science/the-leitner-system-how-does-it-work/" rel="noopener noreferrer nofollow">MindEdge article</a>. </p>
+
+<h2>Objectives</h2>
+
+<p>After displaying each question, you need to ask users whether their answers are correct or not. To do this we need to create another menu, let's call it the learning menu (5):</p>
+
+<pre><code class="language-no-highlight">press "y" if your answer is correct:
+press "n" if your answer is wrong:</code></pre>
+
+<p>This will correspond to Session 1 for these cards. New flashcards and cards with wrong answers should go to the first box. Once you reach Session 3 for them, you can remove them from the database.</p>
+
+<p>A good idea would be to add a column that will stand for the "box number". When a new flashcard is created, set it to some value, and update it once the user answers the card correctly during practicing.</p>
+
+<p><div class="alert alert-primary">Output the <code class="java">&lt;wrong key&gt; is not an option</code> message when a user presses the wrong key. Other parts of the program should operate as in the previous stages.</div></p>
+
+<h2>Examples</h2>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+There is no flashcard to practice!
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the Capital of Turkey?
+Answer:
+&gt; Ankara
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the capital of Croatia?
+Answer:
+&gt; Zagreb
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt;&gt; 2
+
+Question: What is the Capital of Turkey?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Ankara
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+
+Question: What is the capital of Croatia?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Zagreb
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; n
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt;&gt; 2
+
+Question: What is the Capital of Turkey?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Ankara
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+
+Question: What is the capital of Croatia?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; n
+
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; n
+
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt;&gt; 2
+
+Question: What is the Capital of Turkey?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Ankara
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+
+Question: What is the capital of Croatia?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Zagreb
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: What is the capital of Croatia?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Zagreb
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: What is the capital of Croatia?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Zagreb
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt; y
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+There is no flashcard to practice!
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!
+</code></pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 6
+6 is not an option
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+1. Add a new flashcard
+2. Exit
+&gt; 3
+
+3 is not  an option
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt;
+Question:
+&gt; what is the capital of Iran?
+Answer:
+&gt; Tehran
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: what is the capital of Iran?
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; 6
+
+6 is not an option
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+
+Answer: Tehran
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt;&gt;
+
+ is not an option
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt;&gt; b
+
+b is not an option
+press "y" if your answer is correct:
+press "n" if your answer is wrong:
+&gt;&gt; y
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!</code></pre>

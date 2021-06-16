@@ -1,0 +1,221 @@
+<h2>Theory</h2>
+
+<p>Different Query object methods can give access to the table entries. The <code class="language-python">all()</code> method returns a list of all table entries,  <code class="language-python">update({&lt;mapped class attribute&gt;:&lt;new value&gt;})</code> replaces the existing value with a new value,  <code class="language-python">delete()</code> deletes query results. Take a look at how some of the methods can be applied:</p>
+
+<pre><code class="language-python">entries = session.query(Database).all()  # get all table entries
+entry = entries[0]
+
+# the following lines update the entry
+entry.value = 10
+session.commit()
+
+# the following lines delete the entry
+session.delete(entry)
+session.commit()</code></pre>
+
+<p>There are also such useful methods as <code class="language-python">get(&lt;primary key value&gt;)</code> that returns an entry based on the given primary key, and <code class="language-python">filter(&lt;criteria&gt;)</code> that returns only those entries that match the given criteria.</p>
+
+<h2>Description</h2>
+
+<p>In this stage, we are going to add new features to our program. For example, we may need to edit or get rid of some flashcards.</p>
+
+<h2>Objectives</h2>
+
+<p>We need to add new features to the menu that comes up once a user entered the <code class="language-python">Practice flashcards</code> key from the previous stage. Let's call it the practice menu (3):</p>
+
+<pre><code class="language-no-highlight">press "y" to see the answer:
+press "n" to skip:
+press "u" to update:</code></pre>
+
+<p>As you can see, it still contains the <code class="language-python">y</code> and <code class="language-python">n</code> options. A user advances to another menu by entering <code class="language-python">u</code>. Let's call it the update menu (4).</p>
+
+<pre><code class="language-no-highlight">press "d" to delete the flashcard:
+press "e" to edit the flashcard:</code></pre>
+
+<p><code class="language-python">d</code> deletes a flashcard, the <code class="language-python">e</code> option offers a way to edit the current flashcard. First, we need to edit the question:</p>
+
+<pre><code class="language-no-highlight">current question: &lt;question&gt;
+please write a new question: </code></pre>
+
+<p>Once the question has been edited, proceed to the answer:</p>
+
+<pre><code class="language-no-highlight">current answer: &lt;answer&gt;
+please write a new answer:</code></pre>
+
+<p>If the user leaves the question or the answer field empty, keep the original question or answer value unchanged. </p>
+
+<p><div class="alert alert-primary">Output the <code class="language-python">&lt;wrong key&gt; is not an option</code> message in both practice (3) and update (4) menus when a user presses the wrong key. Other parts of the program should operate as in the previous stages.</div></p>
+
+<h2>Examples</h2>
+
+<p>The greater-than symbol followed by a space (<code class="language-python">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+
+<p><strong>Example 1</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+There are no flashcards to practice!
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 1
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; Korea's capital?
+Answer:
+&gt; Seoul
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; Is London England's capital?
+Answer:
+&gt; Yes
+
+1. Add a new flashcard
+2. Exit
+&gt; 1
+
+Question:
+&gt; What is the capital of Ecuador?
+Answer:
+&gt; Quito
+
+1. Add a new flashcard
+2. Exit
+&gt; 2
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: Korea's capital?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+Answer: Seoul
+
+Question: Is London England's capital?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+Answer: Yes
+
+Question: What is the capital of Ecuador?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+Answer: Quito
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: Korea's capital?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; u
+press "d" to delete the flashcard:
+press "e" to edit the flashcard:
+&gt; e
+
+current question: Korea's capital?
+please write a new question:
+&gt; What is the capital of South Korea?
+
+current answer: Seoul
+please write a new answer:
+&gt; Seoul
+
+Question: Is London England's capital?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; u
+press "d" to delete the flashcard:
+press "e" to edit the flashcard:
+&gt; d
+
+Question: What is the capital of Ecuador?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; y
+Answer: Quito
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!</code></pre>
+
+<p><strong>Example 2</strong></p>
+
+<pre><code class="language-no-highlight">1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 2
+
+Question: What is the capital of South Korea?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; r
+r is not an option
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; 4
+4 is not an option
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; u
+press "d" to delete the flashcard:
+press "e" to edit the flashcard:
+&gt; 1
+1 is not an option
+press "d" to delete the flashcard:
+press "e" to edit the flashcard:
+&gt; s
+s is not an option
+press "d" to delete the flashcard:
+press "e" to edit the flashcard:
+&gt; d
+
+Question: What is the capital of Ecuador?:
+press "y" to see the answer:
+press "n" to skip:
+press "u" to update:
+&gt; n
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; g
+
+g is not an option
+
+1. Add flashcards
+2. Practice flashcards
+3. Exit
+&gt; 3
+
+Bye!</code></pre>

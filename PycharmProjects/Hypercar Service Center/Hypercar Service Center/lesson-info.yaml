@@ -1,0 +1,8 @@
+type: framework
+content:
+- Welcome
+- Customer menu
+- Electronic queue
+- Operator menu
+- Next, please_
+current_task: 4

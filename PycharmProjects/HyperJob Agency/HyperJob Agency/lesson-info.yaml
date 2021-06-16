@@ -1,0 +1,8 @@
+type: framework
+content:
+- Creating models
+- Main menu
+- Vacancy and resume pages
+- Authentication
+- Creating new vacancies and resumes
+current_task: 4

@@ -1,0 +1,10 @@
+type: hyperskill
+title: Hypercar Service Center
+language: English
+summary: From booking plane tickets to ordering pizza, web applications play an ever-increasing
+  role in our daily lives. In this project, you'll use Django to create an application
+  that manages the queue at a car service center.<br/><br/>Learn more at <a href="https://hyperskill.org">https://hyperskill.org/projects/85</a>
+programming_language: Python
+content:
+- Hypercar Service Center
+mode: Study

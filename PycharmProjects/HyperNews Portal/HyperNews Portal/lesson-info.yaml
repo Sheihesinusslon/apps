@@ -1,0 +1,8 @@
+type: framework
+content:
+- Main page header
+- News page
+- Main page
+- Creating new articles
+- News search
+current_task: 4

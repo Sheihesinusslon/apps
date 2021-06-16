@@ -1,0 +1,11 @@
+type: hyperskill
+title: Memorization Tool
+language: English
+summary: It would be great to remember anything at any time. Alas, our mental capacity
+  is limited. The good thing is that there are a lot of tools to help us memorize
+  things. In this project, we are going to create a tool for memorizing lines, poems,
+  speeches, and other text-based materials.<br/><br/>Learn more at <a href="https://hyperskill.org">https://hyperskill.org/projects/159</a>
+programming_language: Python
+content:
+- Memorization Tool
+mode: Study
