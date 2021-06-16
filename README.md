@@ -12,10 +12,13 @@ So I chose Programming, and Python became my first language.
 
 I have no educational background in this department,  
 but I'm keepin up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, Codewars and HackerRank.  
-![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)
+![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
+  
+Also, currently I'm learning and doing projects on JetBrains Academy. During my two month free trial, I've completed 7 projects, that can be viewed here:  
+[JetBrains Projects]()
   
   
-My projects and finished courses are listed down bellow.  
+All projects and finished courses are listed down bellow.  
   
   
 ## My home projects  
