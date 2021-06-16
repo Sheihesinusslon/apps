@@ -14,7 +14,7 @@ I have no educational background in this department,
 but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars ![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
   
   
-Also, currently I'm learning and doing projects on JetBrains Academy. During my two month free trial, I've completed 7 projects, that can be viewed here  -->  [JetBrains Projects](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects)
+Currently I'm using my two month free trial to learn and do projects on JetBrains Academy. As of today, I've completed 7 projects. Also I'm taking part in their '30 days coding challenge'.  
   
   
 My projects and finished courses are listed down bellow.  
@@ -30,6 +30,12 @@ My projects and finished courses are listed down bellow.
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
 ### JetBrains Academy
 * [Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
+* [Web Calendar](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Web%20Calendar/Web%20Calendar/task) (Flask, SQLAlchemy, sqlite3, REST API)
+* [HyperJob Agency](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/HyperJob%20Agency/HyperJob%20Agency/task) (Django, Django ORM)
+* [HyperNews Portal](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/HyperNews%20Portal/HyperNews%20Portal/task) (Django)
+* [Hypercar Service Center](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Hypercar%20Service%20Center/Hypercar%20Service%20Center/task/hypercar) (Django)
+* [Memorization Tool](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Memorization%20Tool/Memorization%20Tool/task) (SQLAlchemy)
+* [Password Hacker](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Password%20Hacker/Password%20Hacker/task) (socket)
 ### Games, many much fun
 * [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
 * [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
