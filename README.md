@@ -22,12 +22,14 @@ My projects and finished courses are listed down bellow.
   
 ## My home projects  
 ### Web
-* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)
+* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)  
 ### Main
 * [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app) (TKinter, sqlite3)
-* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK api)
+* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
+### JetBrains Academy
+* [JetBrains Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
 ### Games, many much fun
 * [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
 * [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
