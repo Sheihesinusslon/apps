@@ -1,3 +1,5 @@
+# Hello World!  
+  
 This app provides a possibility to check weather in required cities and keep track of them, storing data in local db.  
 Information about the cities (current temperature, time of a day, overall status), added in the app, is rendered on special cards.
 This cards can be added and removed by the desire of a user  
