@@ -14,7 +14,8 @@ I have no educational background in this department,
 but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars ![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
   
   
-Currently I'm using my two month free trial to learn and do projects on JetBrains Academy. As of today, I've completed 7 projects. Also I'm taking part in their '30 days coding challenge'.  
+Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'. 
+!(JetBrains Cert)[https://user-images.githubusercontent.com/75010755/124273940-4fa15200-db49-11eb-92f9-d47c7693b825.jpg]
   
   
 My projects and finished courses are listed down bellow.  
