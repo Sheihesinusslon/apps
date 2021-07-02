@@ -16,7 +16,7 @@ but I'm catching up, using lectures as well as some great free web resources lik
   
 Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'.  
   
-![JetBrains Cert](<img src="https://user-images.githubusercontent.com/75010755/124273940-4fa15200-db49-11eb-92f9-d47c7693b825.jpg" width="640" height="420">)
+![JetBrains Cert](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-872957541)
   
   
 My projects and finished courses are listed down bellow.  
