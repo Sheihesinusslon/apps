@@ -14,9 +14,7 @@ I have no educational background in this department,
 but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars ![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
   
   
-Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'.  
-  
-![JetBrains Cert](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-872957541)
+Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'. 
   
   
 My projects and finished courses are listed down bellow.  
@@ -69,6 +67,10 @@ My projects and finished courses are listed down bellow.
   
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/120816995-f6e69580-c559-11eb-9f00-ddd5d89f9053.jpg)  
 [link to the certificate](https://stepik.org/cert/998032)  
+  
+  
+### JetBrains  
+![JetBrains Cert](https://user-images.githubusercontent.com/75010755/124273940-4fa15200-db49-11eb-92f9-d47c7693b825.jpg)  
   
   
 ### HackerRank  
