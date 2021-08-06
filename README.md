@@ -15,7 +15,8 @@ but I'm catching up, using lectures as well as some great free web resources lik
   
   
 Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'. 
-####[My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
+  
+  #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
 My projects and finished courses are listed down bellow.  
   
