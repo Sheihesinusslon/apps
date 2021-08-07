@@ -13,7 +13,7 @@ So I chose Programming, and Python became my first language.
   
 I have no educational background in this department,  
 but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars. I've also spent huge
-amount of time on JetBrains Academy, completing the Python Track with 7 finished projects and passing their '30 days coding challenge'.
+amount of time on JetBrains Academy, completing the Python Track with 7 finished projects and passing their '30 days coding challenge'. And I'm a bih fun of Uni lectures.
   
   
 Currently I'm working at T-Systems RUS (Deusthce Telekom) as a Python Backend Developer (trainee).
