@@ -1,3 +1,4 @@
+![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
 ```This repo is a container of portfolio projects that I've done so far as part of my programming practice.  ```  
   
 # Hi there!
@@ -11,10 +12,11 @@ So I chose Programming, and Python became my first language.
   
   
 I have no educational background in this department,  
-but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars ![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
+but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars. I've also spent huge
+amount of time on JetBrains Academy, completing the Python Track with 7 finished projects and passing their '30 days coding challenge'.
   
   
-Currently I'm using my free trial to learn and do projects on JetBrains Academy. As of today, I've finished 7 projects and completed their '30 days coding challenge'. 
+Currently I'm working at T-Systems RUS (Deusthce Telekom) as a Python Backend Developer (trainee).
   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
