@@ -23,7 +23,7 @@ The project's stack: Flask, Postgres, Docker
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
 My pre-internship home projects and finished courses are down bellow.  
-  ____
+  
   
   
 ## My home projects  
