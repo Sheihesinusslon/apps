@@ -5,22 +5,22 @@
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
   
-Last year I started learning Programming and Computer Science. I was contemplating about changing my professional field.  
-I thought about learning something new to me, that would be up-to-date, useful, and challenging. Something that wouldn't
+At 2020 I started learning Programming and Computer Science. I was contemplating about changing my professional field.  
+I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
 lose its utility and relevance in years.  
 So I chose Programming, and Python became my first language.  
   
   
-I have no educational background in this department,  
-but I'm catching up, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank and Codewars. I've also spent huge
-amount of time on JetBrains Academy, completing the Python Track with 7 finished projects and passing their '30 days coding challenge'. And I'm a bih fun of Uni lectures.
+I'd had no educational background in this department. 
+But I started gaining knowledge with the help of worldwide comunity, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism and many more.
   
-  
-Currently I'm working at T-Systems RUS (Deusthce Telekom) as a Python Backend Developer (trainee).
+Currently I'm working at T-Systems RUS [Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/) as a Python Backend Developer (trainee).  
+My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
+The Tech Stack: Flask, Postgres, Docker  
   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
-My projects and finished courses are listed down bellow.  
+My pre-internship home projects and finished courses are down bellow.  
   
   
 ## My home projects  
@@ -80,9 +80,3 @@ My projects and finished courses are listed down bellow.
 ![HackerRank1](https://user-images.githubusercontent.com/75010755/116873798-eff9f980-ac20-11eb-9c76-d049c72d769b.png)  
 [Link to the certificate](https://www.hackerrank.com/certificates/483474b92687)  
   
-  
-### Edu courses I took as a listener:
-* [Programming on Python 3. Ivan Bibilov, Computer Science Center](https://youtube.com/playlist?list=PLlb7e2G7aSpQmGnhrxlqI4iMXNv4R7khy)
-* [Computer science. Algorythms and Data Structures on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/KdZ4HF1SrFs)
-* [Practice of programming on Python 3. Timofei Tkhirianov, MIPT](https://youtu.be/us7y0UhTq0s)
-* [CS50 2020, Introduction to Computer Sciense. David J. Malan, Harvard University](https://youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)
