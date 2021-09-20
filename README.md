@@ -14,7 +14,7 @@ So I chose Programming, and Python became my first language.
 I'd had no educational background in this department. 
 But I started gaining knowledge with the help of worldwide comunity, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism and many more.
   
-<span style="color:blue">Projects and Work Experience</span>.
+#### Projects and Work Experience  
 Currently I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (trainee).  
 My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
 The project's stack: Flask, Postgres, Docker  
@@ -23,7 +23,7 @@ The project's stack: Flask, Postgres, Docker
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
 My pre-internship home projects and finished courses are down bellow.  
-  
+  ____
   
   
 ## My home projects  
