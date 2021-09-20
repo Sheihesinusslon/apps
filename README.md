@@ -5,17 +5,17 @@
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
   
-At 2020 I started learning Programming and Computer Science. I was contemplating about changing my professional field.  
+In 2020 I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
 lose its utility and relevance in years.  
 So I chose Programming, and Python became my first language.  
   
   
 I'd had no educational background in this department. 
-But I started gaining knowledge with the help of worldwide comunity, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism and many more.
+But I started gaining knowledge with the help of the worldwide community, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
   
 #### Projects and Work Experience  
-Currently I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (trainee).  
+Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (intern).  
 My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
 The project's stack: Flask, Postgres, Docker  
   
