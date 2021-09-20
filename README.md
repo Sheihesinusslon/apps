@@ -17,7 +17,7 @@ But I started gaining knowledge with the help of worldwide comunity, using lectu
 
 Currently I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (trainee).  
 My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
-The Tech Stack: Flask, Postgres, Docker  
+The project's stack: Flask, Postgres, Docker  
 
   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
