@@ -14,25 +14,29 @@ So I chose Programming, and Python became my first language.
 I'd had no educational background in this department. 
 But I started gaining knowledge with the help of worldwide comunity, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism and many more.
   
-
+<span style="color:blue">Projects and Work Experience</span>.
 Currently I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (trainee).  
 My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
 The project's stack: Flask, Postgres, Docker  
-
+  
   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
 My pre-internship home projects and finished courses are down bellow.  
   
   
+  
 ## My home projects  
 ### Web
-* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)  
-### Main
-* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app) (TKinter, sqlite3)
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
+* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)  
+### Custom Apps
+* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app) (TKinter, sqlite3)
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
+### Games, many much fun
+* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
+* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
 ### JetBrains Academy
 * [Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
 * [Web Calendar](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Web%20Calendar/Web%20Calendar/task) (Flask, SQLAlchemy, sqlite3, REST API)
@@ -41,9 +45,7 @@ My pre-internship home projects and finished courses are down bellow.
 * [Hypercar Service Center](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Hypercar%20Service%20Center/Hypercar%20Service%20Center/task/hypercar) (Django)
 * [Memorization Tool](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Memorization%20Tool/Memorization%20Tool/task) (SQLAlchemy)
 * [Password Hacker](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Password%20Hacker/Password%20Hacker/task) (socket)
-### Games, many much fun
-* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
-* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
+
   
   
 ## Courses
