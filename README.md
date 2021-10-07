@@ -50,6 +50,11 @@ My pre-internship home projects and finished courses are down bellow.
   
 ## Courses
 
+### T-Systems  
+  
+![UNIX](https://user-images.githubusercontent.com/75010755/136327345-b1c2a2c9-a7dd-4e43-9ca5-4ce9c1f2284a.jpg)  
+  
+  
 ### Coursera
   
 ![Coursera_page-0001](https://user-images.githubusercontent.com/75010755/117824586-485f7580-b277-11eb-9674-fc527adca8e8.jpg)
