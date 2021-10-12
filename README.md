@@ -1,4 +1,4 @@
-![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
+![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  ![HackerRank](https://github.com/Sheihesinusslon/portfolio-apps/issues/1#issuecomment-940711054)
 ```This repo is a container of home projects that I've done so far as part of my programming practice.  ```  
   
 # Hi there!
