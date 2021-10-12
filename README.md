@@ -1,7 +1,8 @@
-![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
-<img src="https://user-images.githubusercontent.com/75010755/136905512-fe3d6c0f-a9a0-4d3b-8681-b6c57c8c333a.jpg" width="150" height="75">  
 ```This repo is a container of home projects that I've done so far as part of my programming practice.  ```  
   
+![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)  
+<img src="https://user-images.githubusercontent.com/75010755/136905512-fe3d6c0f-a9a0-4d3b-8681-b6c57c8c333a.jpg" width="150" height="75">  
+
 # Hi there!
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
