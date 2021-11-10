@@ -67,9 +67,8 @@ My pre-internship home projects and finished courses are down bellow.
 ![Certificate](https://user-images.githubusercontent.com/75010755/107735189-33bf2000-6d10-11eb-8a0f-2112ec224483.JPG)  
 [Link to the certificate](https://www.freecodecamp.org/certification/sheihesinusslon/scientific-computing-with-python-v7)  
   
-**Projects that I completed as part of the certification:**
-
-[FreeCodeCamp projects](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/FreeCodeCamp)
+![Certificate](https://user-images.githubusercontent.com/75010755/141073481-e8aa8fcc-632a-46e8-9707-5c8825ffc6bb.PNG)  
+[Link to the certificate](https://www.freecodecamp.org/certification/sheihesinusslon/data-analysis-with-python-v7)  
   
   
 ### Stepik
@@ -83,7 +82,7 @@ My pre-internship home projects and finished courses are down bellow.
 [link to the certificate](https://stepik.org/cert/998032)  
   
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/140181961-34349cdd-29ad-411f-94e1-3ac28938948a.jpg)  
-  
+[link to the certificate](https://stepik.org/cert/1205134)
   
   
 ### JetBrains  
