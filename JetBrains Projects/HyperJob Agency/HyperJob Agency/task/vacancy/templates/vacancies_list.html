@@ -1,9 +1,0 @@
-{% extends 'base.html' %}
-{% block title %}{{ block.super }}{% endblock %}
-
-{% block content %}
-    <h2>Hyper Vacancies</h2>
-    {% for vacancy in vacancies %}
-        <div>{{ vacancy.author }}: {{ vacancy.description }}</div>
-    {% endfor %}
-{% endblock %}
