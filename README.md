@@ -1,9 +1,4 @@
-```This repo is a container of home projects that I've done so far as part of my programming practice.  ```  
-  
-![Codewars](https://www.codewars.com/users/Sheihesinusslon/badges/small)    
-<img src="https://user-images.githubusercontent.com/75010755/137488111-36663cb7-a6e3-461f-8b92-4127b105333f.jpg" width="150" height="75">  
-  
-# Hi there!
+# Hi there!  
 
 My name is Nikita. I'm 27, from Saint-Petersburg.  
   
