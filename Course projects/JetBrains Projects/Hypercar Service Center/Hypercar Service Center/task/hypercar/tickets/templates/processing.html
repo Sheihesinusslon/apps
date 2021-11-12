@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ block.super }}{% endblock %}
+
+{% block content %}
+    <div>Change oil queue: {{ oil_q }}</div>
+    <div>Inflate tires queue: {{ tires_q }}</div>
+    <div>Get diagnostic queue: {{ diagnostic_q }}</div>
+
+    <form method="post">{% csrf_token %}
+      <button type="submit">Process next</button>
+    </form>
+{% endblock %}

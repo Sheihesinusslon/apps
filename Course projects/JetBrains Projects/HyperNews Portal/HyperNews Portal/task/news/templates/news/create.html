@@ -1,0 +1,19 @@
+{% extends 'news/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+{% block title %}{{ block.super }}{% endblock %}
+
+{% block content %}
+    <form action="/news/create/" method="post">
+        {% csrf_token %}
+        <p>Article title</p>
+        <input name="title" type="text">
+        <br>
+        <p>Article body</p>
+        <input name="text" type="text">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <a target="_blank" target="_blank" href="/news/"></a>
+{% endblock %}

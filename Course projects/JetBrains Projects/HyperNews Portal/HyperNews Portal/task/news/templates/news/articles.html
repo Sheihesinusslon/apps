@@ -1,0 +1,23 @@
+{% extends 'news/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+{% block title %}{{ block.super }}{% endblock %}
+
+{% block content %}
+    <h2>Hyper news</h2>
+    <form action="/news/" method="get">{% csrf_token %}
+        <input name="q" type="text" placeholder="What are you looking for?">
+        <button type="submit">Search</button>
+    </form>
+
+    {% for article in articles %}
+        <h4>{{ article.0 }}</h4>
+            <ul>
+                {% for a in article.1 %}
+                    <li><a target="_blank" href="/news/{{ a.link }}/">{{ a.title }}</a></li>
+                {% endfor %}
+            </ul>
+    {% endfor %}
+    <a href="/news/create/"></a>
+{% endblock %}
