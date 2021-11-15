@@ -25,25 +25,15 @@ My pre-internship home projects and finished courses are down bellow.
   
 ## My home projects  
 ### Web
-* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
-* [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
-* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/EnglishDictionary) (Django, Flask, Bootstrap styles)  
+* [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
+* [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
+* [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/EnglishDictionary) (Django, Flask, Bootstrap styles)  
 ### Custom Apps
-* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Flashcards_app) (TKinter, sqlite3)
-* [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Salary%20app) (OOP)
+* [Flashcards app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Custom%20apps/Flashcards_app) (TKinter, sqlite3)
+* [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Custom%20apps/Salary%20app) (OOP)
 ### Games, many much fun
-* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/SpaceRangers) (Pygame, OOP)
-* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Snake) (Pygame)
-### JetBrains Academy
-* [Weather App](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Weather%20App/Weather%20App/task/web) (Flask, SQLAlchemy, sqlite3, OpenWeather API)
-* [Web Calendar](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Web%20Calendar/Web%20Calendar/task) (Flask, SQLAlchemy, sqlite3, REST API)
-* [HyperJob Agency](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/HyperJob%20Agency/HyperJob%20Agency/task) (Django, Django ORM)
-* [HyperNews Portal](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/HyperNews%20Portal/HyperNews%20Portal/task) (Django)
-* [Hypercar Service Center](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Hypercar%20Service%20Center/Hypercar%20Service%20Center/task/hypercar) (Django)
-* [Memorization Tool](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Memorization%20Tool/Memorization%20Tool/task) (SQLAlchemy)
-* [Password Hacker](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/JetBrains%20Projects/Password%20Hacker/Password%20Hacker/task) (socket)
-
-  
+* [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Games/SpaceRangers) (Pygame, OOP)  
+* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Games/Snake) (Pygame)  
   
 ## Courses
 
