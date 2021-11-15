@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 27, from Saint-Petersburg.  
+My name is Nikita. I'm 28, from Saint-Petersburg.  
   
 In 2020 I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
