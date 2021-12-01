@@ -11,7 +11,6 @@ So I chose Programming, and Python became my first language.
 I'd had no educational background in this department. 
 But I started gaining knowledge with the help of the worldwide community, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
   
-_ _ _  
   
 #### Projects and Work Experience  
 Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Junior Python Backend Developer.  
@@ -22,13 +21,11 @@ The projects that I took part in:
 • web CRM system for the company's educational project, Java School. Stack: Flask, Postgres, Docker  
 ```
    
-   
-### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
-    
+### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
-# My home projects and finished courses  
   
 ## Projects  
+
 ### Web
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
