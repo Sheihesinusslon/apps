@@ -12,7 +12,7 @@ I'd had no educational background in this department.
 But I started gaining knowledge with the help of the worldwide community, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
   
   
-#### Projects and Work Experience  
+### Projects and Work Experience  
 Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Junior Python Backend Developer.  
 The projects that I took part in:  
 ```
