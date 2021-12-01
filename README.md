@@ -12,14 +12,19 @@ I'd had no educational background in this department.
 But I started gaining knowledge with the help of the worldwide community, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
   
 #### Projects and Work Experience  
-Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Python Backend Developer (intern).  
-My team is building the web-based CRM system for the company's educational project, [Java School](https://deutschetelekomitsolutions.ru/start-career/?school-171&#school-171).  
-The project's stack: Flask, Postgres, Docker  
+Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Junior Python Backend Developer.  
+The projects that I took part in:  
+  
+• Current project. 
+        Stack: JupyterLab, Pandas
+• web CRM system for the company's educational project, Java School.
+        Stack: Flask, Postgres, Docker
+ 
   
   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
-My pre-internship home projects and finished courses are down bellow.  
+My home projects and finished courses are down bellow.  
   
   
   
