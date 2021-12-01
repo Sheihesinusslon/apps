@@ -16,12 +16,12 @@ Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https:/
 The projects that I took part in:  
   
 • Current project. 
-        Stack: JupyterLab, Pandas
-• web CRM system for the company's educational project, Java School.
-        Stack: Flask, Postgres, Docker
- 
-  
-  
+        Stack: JupyterLab, Pandas  
+• web CRM system for the company's educational project, Java School.  
+        Stack: Flask, Postgres, Docker  
+   
+   
+   
   #### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)
   
 My home projects and finished courses are down bellow.  
