@@ -21,7 +21,9 @@ DB_DOTENV_PATH = BASE_DIR.parent.joinpath(".env.db")
 
 if os.path.exists(DOTENV_PATH):
     load_dotenv(DOTENV_PATH)
-    # load_dotenv(DB_DOTENV_PATH)
+
+if os.path.exists(DB_DOTENV_PATH):
+    load_dotenv(DB_DOTENV_PATH)
 
 
 # Quick-start development settings - unsuitable for production
