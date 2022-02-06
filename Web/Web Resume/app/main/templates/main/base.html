@@ -21,6 +21,7 @@
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.5/swiper-bundle.min.css">
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/messages.css' %}" rel="stylesheet">
     {% block extend_header%}{%endblock%}
     <!-- ================================
     End CSS
@@ -28,7 +29,6 @@
 
   </head>
   <body>
-    {% include 'main/partials/messages.html' %}
     {% include 'main/partials/nav.html' %}
 
     {% block content %}
@@ -43,6 +43,7 @@
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
     <script src="https://unpkg.com/swiper@7.0.5/swiper-bundle.min.js"></script>
     <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/messages.js' %}"></script>
     {% block extend_footer %}{%endblock%}
     <!-- ================================
     End Scripts

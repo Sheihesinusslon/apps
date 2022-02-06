@@ -55,17 +55,6 @@ Start Content
           <div class="col-md-6 pColMain">
             <div class="pCol">
               <div class="sectionSpace">
-                {% if obj.image %}
-                  <div class="cardStyle1" style="background-image: url({{obj.image.url}});">
-                    <h4 class="mdTitle cs1Title">
-                      <a href="{% url 'main:portfolio' slug=obj.slug %}" >{{obj.name|title}}</a>
-                    </h4>
-                    <ul class="cardOptionCol">
-                      <li>{{obj.date.date}}</li>
-                    </ul>
-                    <p>{{obj.description}}</p>
-                  </div>
-                {% else %}
                   <div class="cardStyle1">
                     <h4 class="mdTitle cs1Title">
                       <a href="{% url 'main:portfolio' slug=obj.slug %}" >{{obj.name|title}}</a>
@@ -75,7 +64,6 @@ Start Content
                     </ul>
                     <p>{{obj.description}}</p>
                   </div>
-                {% endif %}
               </div>
             </div>
           </div>

@@ -47,7 +47,8 @@ Start Content
 
 <section>
   <div class="lightBg">
-    <div class="container">
+    <div class="container"
+         style="padding-top: var(--bs-gutter-y,.75rem); padding-bottom: var(--bs-gutter-y,.75rem)">
         <form id="contactForm" method="POST" action="/contact/">
         {% csrf_token %}
             <label for="name">Name</label>

@@ -33,6 +33,7 @@ Start Content
 {% block content %}
 <section>
   <div class="bannerSection">
+    {% include 'main/partials/messages.html' %}
     <div class="container">
       <div class="row g-4 g-md-3  align-items-center">
         <div class="col-md-auto order-md-last">
@@ -68,15 +69,21 @@ Start Content
         <div class="col-md-auto">
           <div class="keySkillCol">
             <h4 class="smTitle pb-3">Key Skills</h4>
-            {% for sk in me.userprofile.skills.all %}
+            {% for sk in skills %}
             {% if sk.is_key_skill %}
             <div class="keySkillCard">
-              {% if sk.image %}
-              <div class="ksIconCol">
-                <img src="{{sk.image.url}}" alt="...">
+              <div class="ksIconCol" style="display: inline-block">
+                {% if sk.image %}
+                <span class="ksText">
+                  <img src="{{sk.image.url}}" alt="...">  {{sk.name}}
+                </span>
+                {% else %}
+                  <span class="ksText">{{sk.name}}</span>
+                {% endif %}
+                <span class="ksText"
+                      style="padding-left: 30px; text-align: center">{{sk.subskills}}
+                </span>
               </div>
-              {% endif %}
-              <span class="ksText">{{sk.name}}</span>
             </div>
             {% endif %}
             {% endfor %}
@@ -86,10 +93,12 @@ Start Content
           <h4 class="smTitle pb-3">Coding Skills</h4>
           <div class="progressCol">
             <div class="progressCard">
-              {% for sk in me.userprofile.skills.all %}
-              {% if sk.is_key_skill %}
+              {% for sk in skills %}
+              {% if sk.is_coding_skill %}
               <div class="progressCol">
-                <span class="progressLbl">{{sk.name}}</span>
+                <div class="ksIconCol">
+                  <span class="progressLbl">{{sk.name}}</span>
+                </div>
                 <div class="row g-2 align-items-center">
                   <div class="col">
                     <div class="progress progressStyle">
@@ -123,7 +132,7 @@ Start Content
 
         </div>
         <div class="sliderOuter">
-          <div class="swiper certificatesSlider">
+          <div class="swiper certificatesSlider" style="overflow: visible;">
             <div class="swiper-wrapper">
               {% for c in certificates %}
               {% if c.is_active %}
