@@ -21,12 +21,14 @@ The projects that I took part in:
 • web CRM system for the company's educational project, Java School. Stack: Flask, Postgres, Docker  
 ```
    
+### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/)   
 ### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
   
 ## Projects  
 
 ### Web
+* [Digital Resume](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Web%20Resume) (Django)  
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
 * [English Dictionary](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/EnglishDictionary) (Django, Flask, Bootstrap styles)  
