@@ -16,9 +16,9 @@ But I started gaining knowledge with the help of the worldwide community, using 
 Currently, I'm working at T-Systems RUS ([Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/)) as a Junior Python Backend Developer.  
 The projects that I took part in:  
 ```
-• current project. Stack: JupyterLab, Pandas  
+• current project. Stack: JupyterLab, Pandas, Numpy  
     
-• web CRM system for the company's educational project, Java School. Stack: Flask, Postgres, Docker  
+• web CRM system for the company's educational project, Java School. Stack: Python, Java Script, Flask, Postgres, Docker, Jenkins    
 ```
    
 ### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/)   
