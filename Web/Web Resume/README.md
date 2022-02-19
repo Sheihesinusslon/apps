@@ -10,3 +10,5 @@ Later due to the problems with AWS account it was redeployed on [Pythonanywhere]
 ```Python + Django + some native JS used```
   
 ##### Credits to [freeCodeCamp](freeCodeCamp.org), Bobby Stearman & James Granger  
+  
+![index](https://user-images.githubusercontent.com/75010755/154812645-9764e0d7-b611-4b68-ae4f-014c1998fe1d.png)
