@@ -71,7 +71,10 @@ The projects that I took part in:
 [link to the certificate](https://stepik.org/cert/998032)  
   
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/140181961-34349cdd-29ad-411f-94e1-3ac28938948a.jpg)  
-[link to the certificate](https://stepik.org/cert/1205134)
+[link to the certificate](https://stepik.org/cert/1205134)  
+  
+![CSS Certificate](https://user-images.githubusercontent.com/75010755/163850387-12466c2b-1171-46f2-9b6d-b2c833039590.jpg)  
+[link to the certificate](https://stepik.org/cert/1473384)  
   
   
 ### JetBrains  
