@@ -9,7 +9,7 @@ So I chose Programming, and Python became my first language.
   
   
 I'd had no educational background in this department. 
-But I started gaining knowledge with the help of the worldwide community, using lectures as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
+But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
   
   
  
