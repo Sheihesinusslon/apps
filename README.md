@@ -53,6 +53,9 @@ But I started gaining knowledge with the help of the worldwide community, using 
   
   
 ### Stepik
+![Certificate](https://user-images.githubusercontent.com/75010755/192330770-8907172c-e4c4-4f00-9b13-053b47f5db93.jpg)  
+[Link to the certificate](https://stepik.org/cert/1685043)  
+  
 ![CSS Certificate](https://user-images.githubusercontent.com/75010755/111317355-24b3f080-8675-11eb-8770-1f8e526d18c7.jpg)   
 [Link to the certificate](https://stepik.org/cert/907513)  
   
