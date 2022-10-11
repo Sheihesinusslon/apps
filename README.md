@@ -51,6 +51,9 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ![Certificate](https://user-images.githubusercontent.com/75010755/141073481-e8aa8fcc-632a-46e8-9707-5c8825ffc6bb.PNG)  
 [Link to the certificate](https://www.freecodecamp.org/certification/sheihesinusslon/data-analysis-with-python-v7)  
   
+![Certificate](https://user-images.githubusercontent.com/75010755/195145793-7a2a6668-0b6f-47bc-9ede-3d3d24acc84a.jpg)  
+[Link to the certificate](https://www.freecodecamp.org/certification/sheihesinusslon/machine-learning-with-python-v7)  
+  
   
 ### Stepik
 ![Certificate](https://user-images.githubusercontent.com/75010755/192330770-8907172c-e4c4-4f00-9b13-053b47f5db93.jpg)  
