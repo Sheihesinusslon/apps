@@ -1,15 +1,19 @@
 from functools import wraps
 from time import sleep
-from typing import Protocol, Optional, Callable, Any
+from typing import Any, Callable, Generic, Optional, Protocol
 
-from app.config import GREETING_VOICE, WELCOME_STICKER
+from telebot import TeleBot
+from telebot.formatting import mbold
+
+from app.config import cfg, GREETING_VOICE, WELCOME_STICKER
 from app.services.openai import GPT
 from app.services.urban_dict import UrbanDict
-from app.utils import greeting, CallBackData, Bot, Keyboard
+from app.utils import Bot, CallBackData, greeting, Keyboard
 
 
-class WhackyBot(Protocol):
-    """Protocol class to define a basic interface for a telegram bot."""
+class WhackyBot(Protocol, Generic[Bot, Keyboard]):
+    """Protocol class to define a basic interface for a telegram bot"""
+
     bot: Bot
     keyboard_manager: Keyboard
 
@@ -39,7 +43,7 @@ class WhackyTeleBot:
     URBAN = "urban"
     GPT = "gpt"
 
-    def __init__(self, bot: Bot, keyboard_manager: Keyboard):
+    def __init__(self, bot: TeleBot, keyboard_manager: Keyboard):
         self.bot = bot
         self.keyboard_manager = keyboard_manager
         self._urban_dict: Optional[UrbanDict] = None
@@ -52,12 +56,12 @@ class WhackyTeleBot:
         self.bot.send_message(
             message.chat.id,
             msg,
-            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type)
+            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
         )
 
     def handle_text_messages(self, message) -> None:
         """Handles text messages from a user. Generates a random response to user messages, working as a proxy
-            for chatGPT, and suggests a basic keyboard set for further work"""
+        for chatGPT, and suggests a basic keyboard set for further work"""
         prompt = message.text.lower()
         response = self.gpt.generate_random_response(prompt)
 
@@ -65,7 +69,6 @@ class WhackyTeleBot:
             message.chat.id,
             response,
             reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
-            parse_mode="html",
         )
 
     def handle_ud_request(self, message) -> None:
@@ -77,7 +80,6 @@ class WhackyTeleBot:
             message.chat.id,
             response,
             reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
-            parse_mode="html",
         )
 
     def handle_gpt_request(self, message) -> None:
@@ -91,14 +93,17 @@ class WhackyTeleBot:
             self.bot.send_message(
                 message.chat.id,
                 response,
-                reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
-                parse_mode="html",
+                reply_markup=self.keyboard_manager.get_default_keyboard(
+                    message.chat.type
+                ),
             )
 
     @staticmethod
     def cache_callback_request(delay: float = 0.5) -> Callable:
         """Decorator to cache user ids from accepted callbacks to set a delay for a response in case of multiple
-            instant button actions. Allow to avoid sending duplicated requests within set delay for a user"""
+        instant button actions. Allow to avoid sending duplicated requests within set delay for a user
+        """
+
         def cache(func: Callable) -> Callable:
             __cached_user_ids = set()
 
@@ -115,21 +120,27 @@ class WhackyTeleBot:
                 __cached_user_ids.remove(user_id)
 
             return inner
+
         return cache
 
-    @cache_callback_request(delay=0.6)
+    @cache_callback_request(delay=cfg.CALLBACK_CACHE_DELAY)
     def handle_keyboard_messages(self, call) -> None:
         """Handles keyboard input from a user, providing instructions or another keyboard sets to continue working
-            with user's prompt/request"""
+        with user's prompt/request"""
         if call.data == CallBackData.URBAN:
-            response = f"Send <b>{self.URBAN}</b> to get 10 random\nwords/phrases from Urban Dictionary\n\n"\
-                  f"Send <b>{self.URBAN} 'your word/phrase'</b>\nto get Urban definition\n"
+            response = (
+                f"Send {mbold(self.URBAN)} to get 10 random\nwords/phrases from Urban Dictionary\n\n"
+                f"Send "
+                + mbold(self.URBAN + " your word/phrase")
+                + "\nto get Urban definition\n"
+            )
 
             self.bot.send_message(
                 call.message.chat.id,
                 response,
-                parse_mode="html",
-                reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type),
+                reply_markup=self.keyboard_manager.get_default_keyboard(
+                    call.message.chat.type
+                ),
             )
 
         if call.data == CallBackData.HOROSCOPE:
@@ -145,7 +156,9 @@ class WhackyTeleBot:
             self.bot.send_message(
                 call.message.chat.id,
                 response,
-                reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type)
+                reply_markup=self.keyboard_manager.get_default_keyboard(
+                    call.message.chat.type
+                ),
             )
 
         if call.data == CallBackData.HELLO:
@@ -154,7 +167,9 @@ class WhackyTeleBot:
                 self.bot.send_voice(
                     call.message.chat.id,
                     voice=voice,
-                    reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type)
+                    reply_markup=self.keyboard_manager.get_default_keyboard(
+                        call.message.chat.type
+                    ),
                 )
 
         if call.data == CallBackData.GPT:
@@ -180,10 +195,9 @@ class WhackyTeleBot:
         return self._gpt
 
     def _send_gpt_instruction(self, message):
-        response = f"Send <b>{self.GPT}</b> and your question\nto send a request to ChatGPT\n\n"
+        response = f"Send {mbold(self.GPT)} and your question\nto send a request to ChatGPT\n\n"
         self.bot.send_message(
             message.chat.id,
             response,
-            parse_mode="html",
             reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
         )

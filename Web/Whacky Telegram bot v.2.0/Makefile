@@ -12,6 +12,7 @@ test:
 	${PYTHON} -m pytest tests
 
 check_codestyle:
+	black --check app
 	flake8 app
 	pylint --rcfile tox.ini --fail-under=9.5 app
 	mypy --config-file=tox.ini --check-untyped-defs app

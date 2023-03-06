@@ -40,7 +40,7 @@ def run_bot(bot: Bot, whacky_bot: WhackyBot):
 
 def main():
     """Creates a bot instance and runs it"""
-    bot = telebot.TeleBot(cfg.BOT_TOKEN, colorful_logs=True)
+    bot = telebot.TeleBot(cfg.BOT_TOKEN, colorful_logs=True, parse_mode="markdown")
     keyboard = KeyboardManager(keyboard=telebot.types.InlineKeyboardMarkup(), button=telebot.types.InlineKeyboardButton)
     whacky_bot: WhackyBot = WhackyTeleBot(bot=bot, keyboard_manager=keyboard)
 

@@ -11,6 +11,7 @@ PRIVATE_CHAT: Final[str] = "private"
 
 class KeyboardManager(Generic[Keyboard, Button]):
     """Provides an interface to create different sets of Keyboards with Buttons"""
+
     def __init__(self, keyboard: Keyboard, button: Button):
         self.keyboard = keyboard
         self.button = button
@@ -20,7 +21,9 @@ class KeyboardManager(Generic[Keyboard, Button]):
         self.__clear_keyborad()
         # init keyboard and prepare keys
         key1 = self.button(text="Say Hello", callback_data=CallBackData.HELLO)
-        key2 = self.button(text="Get a Horoscope for the day", callback_data=CallBackData.HOROSCOPE)
+        key2 = self.button(
+            text="Get a Horoscope for the day", callback_data=CallBackData.HOROSCOPE
+        )
         key3 = self.button(text="Urban Dictionary", callback_data=CallBackData.URBAN)
         key4 = self.button(text="ChatGPT", callback_data=CallBackData.GPT)
 
@@ -45,7 +48,9 @@ class KeyboardManager(Generic[Keyboard, Button]):
         key_virgo = self.button(text="Virgo", callback_data=CallBackData.ZODIAC)
         key_libra = self.button(text="Libra", callback_data=CallBackData.ZODIAC)
         key_scorpio = self.button(text="Scorpio", callback_data=CallBackData.ZODIAC)
-        key_sagittarius = self.button(text="Sagittarius", callback_data=CallBackData.ZODIAC)
+        key_sagittarius = self.button(
+            text="Sagittarius", callback_data=CallBackData.ZODIAC
+        )
         key_capricorn = self.button(text="Capricorn", callback_data=CallBackData.ZODIAC)
         key_aquarius = self.button(text="Aquarius", callback_data=CallBackData.ZODIAC)
         key_pisces = self.button(text="Pisces", callback_data=CallBackData.ZODIAC)
@@ -61,6 +66,8 @@ class KeyboardManager(Generic[Keyboard, Button]):
         return self.keyboard
 
     def get_default_keyboard(self, chat_type):
+        """Depending on the chat type, either suggest a default keyboard set or doesn't send keyboard at all
+        (in case it's a group chat)"""
         return self.start_keyboard() if chat_type == PRIVATE_CHAT else None
 
     def __clear_keyborad(self):
@@ -83,16 +90,19 @@ def greeting() -> str:
         "Salutations are greetings!\nNeed something?",
         "Alright alright alright!",
         "Bot. James Bot.\nAnd you?",
-        "You know what they say in China?\n They say: Ciao!"
+        "You know what they say in China?\n They say: Ciao!",
     ]
-    commands = "\n\n/gpt (your question here) to send a question to ChatGPT\n" \
-               "/urban (word or phrase) to look up a definition in Urban Dictionary\n"
+    commands = (
+        "\n\n/gpt (your question here) to send a question to ChatGPT\n"
+        "/urban (word or phrase) to look up a definition in Urban Dictionary\n"
+    )
 
     return choice(options) + commands
 
 
 class CallBackData(str, Enum):
     """Enum that contains all types of callback data"""
+
     HELLO = auto()
     URBAN = auto()
     HOROSCOPE = auto()
@@ -102,4 +112,5 @@ class CallBackData(str, Enum):
 
 class WhackyBotValidationException(Exception):
     """Custom validation exception for Whacky bot"""
+
     pass

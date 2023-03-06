@@ -21,13 +21,17 @@ GREETING_VOICE: Path = MEDIA_DIR / "greeting.ogg"
 @dataclass
 class BotConfig:
     """Class to collect all app's configuration and check the required tokens set up"""
+
     BOT_TOKEN: Optional[str] = os.getenv(BOT_TOKEN_ENV) or BOT_TOKEN_CONSTANT
     OPENAI_TOKEN: Optional[str] = os.getenv(OPENAI_TOKEN_ENV) or OPENAI_TOKEN_CONSTANT
     LOG_LEVEL = logging.INFO
+    CALLBACK_CACHE_DELAY: float = 0.6
 
     def __post__init__(self):
         if not self.BOT_TOKEN or not self.OPENAI_TOKEN:
-            raise WhackyBotValidationException("Please set up tokens for TeleBot and OpenAI")
+            raise WhackyBotValidationException(
+                "Please set up tokens for TeleBot and OpenAI"
+            )
 
 
 cfg = BotConfig()

@@ -1,5 +1,5 @@
 from requests import RequestException
-from telebot.apihelper import ApiTelegramException
+from telebot.formatting import mbold
 from udpy import UrbanClient
 
 from app.config import SERVICE_ERROR_MSG
@@ -8,8 +8,9 @@ from app.logger import logger
 
 class UrbanDict:
     """Class responsible for connection instantiation with Urban Dictionary service using udpy library.
-        Calls UrbanClient API to get responses from Urban Dictionary.
+    Calls UrbanClient API to get responses from Urban Dictionary.
     """
+
     def __init__(self):
         logger.info("Initializing connection with UrbanClient.")
         self.client = UrbanClient()
@@ -52,7 +53,10 @@ class UrbanDict:
             response = SERVICE_ERROR_MSG
         else:
             response = "".join(
-                f"\n<b>{word_or_phrase}</b>\n" + d.definition.replace("[", "").replace("]", "") + "\n" for d in defs[:5]
+                f"\n{mbold(word_or_phrase)}\n"
+                + d.definition.replace("[", "").replace("]", "")
+                + "\n"
+                for d in defs[:5]
             )
 
         return response or "Couldn't find a definition for your request :/"
@@ -70,6 +74,9 @@ class UrbanDict:
             logger.error(err)
             response = SERVICE_ERROR_MSG
         else:
-            response = "\n".join(f"\n<b>{d.word}</b>\n" + d.definition.replace("[", "").replace("]", "") for d in rand)
+            response = "\n".join(
+                f"\n{mbold(d.word)}\n" + d.definition.replace("[", "").replace("]", "")
+                for d in rand
+            )
 
         return response

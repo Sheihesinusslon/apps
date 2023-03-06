@@ -15,6 +15,7 @@ ModelName = NewType("ModelName", str)
 @dataclass
 class GPT:
     """Instantiates a connection with OpenAI and provides an interface to communicate with it"""
+
     model_engine: ModelName = ModelName("text-davinci-003")
     max_tokens: int = 2048
     temperature: float = 0.5
@@ -58,7 +59,7 @@ class GPT:
 
     def get_horoscope(self) -> str:
         """Top-level function that requests a model to generate a horoscope.
-            Returns a generated response from a model
+        Returns a generated response from a model
         """
         prompt = "Generate a random horoscope for the day in five sentences."
         return self.generate_response(prompt)
