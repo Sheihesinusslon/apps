@@ -1,4 +1,6 @@
-from typing import Protocol, Optional
+from functools import wraps
+from time import sleep
+from typing import Protocol, Optional, Callable, Any
 
 from app.config import GREETING_VOICE, WELCOME_STICKER
 from app.services.openai import GPT
@@ -47,8 +49,11 @@ class WhackyTeleBot:
         """Sends a welcome sticker and a voice message to greet a user"""
         self.bot.send_sticker(message.chat.id, WELCOME_STICKER)
         msg = greeting()
-        keyboard = self.keyboard_manager.start_keyboard() if message.chat.type == "private" else None
-        self.bot.send_message(message.chat.id, msg, reply_markup=keyboard)
+        self.bot.send_message(
+            message.chat.id,
+            msg,
+            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type)
+        )
 
     def handle_text_messages(self, message) -> None:
         """Handles text messages from a user. Generates a random response to user messages, working as a proxy
@@ -56,11 +61,10 @@ class WhackyTeleBot:
         prompt = message.text.lower()
         response = self.gpt.generate_random_response(prompt)
 
-        keyboard = self.keyboard_manager.start_keyboard() if message.chat.type == "private" else None
         self.bot.send_message(
             message.chat.id,
             response,
-            reply_markup=keyboard,
+            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
             parse_mode="html",
         )
 
@@ -69,11 +73,10 @@ class WhackyTeleBot:
         prompt = message.text.lower().lstrip(f"/{self.URBAN}").lstrip(self.URBAN)
         response = self.urban_dict.get_definitions(prompt)
 
-        keyboard = self.keyboard_manager.start_keyboard() if message.chat.type == "private" else None
         self.bot.send_message(
             message.chat.id,
             response,
-            reply_markup=keyboard,
+            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
             parse_mode="html",
         )
 
@@ -85,14 +88,36 @@ class WhackyTeleBot:
         else:
             response = self.gpt.generate_response(prompt)
 
-            keyboard = self.keyboard_manager.start_keyboard() if message.chat.type == "private" else None
             self.bot.send_message(
                 message.chat.id,
                 response,
-                reply_markup=keyboard,
+                reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
                 parse_mode="html",
             )
 
+    @staticmethod
+    def cache_callback_request(delay: float = 0.5) -> Callable:
+        """Decorator to cache user ids from accepted callbacks to set a delay for a response in case of multiple
+            instant button actions. Allow to avoid sending duplicated requests within set delay for a user"""
+        def cache(func: Callable) -> Callable:
+            __cached_user_ids = set()
+
+            @wraps(func)
+            def inner(*args: Any, **kwargs: Any) -> None:
+                _, callback = args
+                user_id = callback.from_user.id
+                if user_id not in __cached_user_ids:
+                    __cached_user_ids.add(user_id)
+                    func(*args, **kwargs)
+                else:
+                    return
+                sleep(delay)
+                __cached_user_ids.remove(user_id)
+
+            return inner
+        return cache
+
+    @cache_callback_request(delay=0.6)
     def handle_keyboard_messages(self, call) -> None:
         """Handles keyboard input from a user, providing instructions or another keyboard sets to continue working
             with user's prompt/request"""
@@ -104,7 +129,7 @@ class WhackyTeleBot:
                 call.message.chat.id,
                 response,
                 parse_mode="html",
-                reply_markup=self.keyboard_manager.start_keyboard(),
+                reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type),
             )
 
         if call.data == CallBackData.HOROSCOPE:
@@ -117,8 +142,11 @@ class WhackyTeleBot:
 
         if call.data == CallBackData.ZODIAC:
             response = self.gpt.get_horoscope()
-            keyboard = self.keyboard_manager.start_keyboard() if call.message.chat.type == "private" else None
-            self.bot.send_message(call.message.chat.id, response, reply_markup=keyboard)
+            self.bot.send_message(
+                call.message.chat.id,
+                response,
+                reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type)
+            )
 
         if call.data == CallBackData.HELLO:
             self.bot.send_sticker(call.message.chat.id, WELCOME_STICKER)
@@ -126,7 +154,7 @@ class WhackyTeleBot:
                 self.bot.send_voice(
                     call.message.chat.id,
                     voice=voice,
-                    reply_markup=self.keyboard_manager.start_keyboard()
+                    reply_markup=self.keyboard_manager.get_default_keyboard(call.message.chat.type)
                 )
 
         if call.data == CallBackData.GPT:
@@ -157,5 +185,5 @@ class WhackyTeleBot:
             message.chat.id,
             response,
             parse_mode="html",
-            reply_markup=self.keyboard_manager.start_keyboard(),
+            reply_markup=self.keyboard_manager.get_default_keyboard(message.chat.type),
         )

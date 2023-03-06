@@ -1,10 +1,12 @@
 from enum import Enum, auto
 from random import choice
-from typing import TypeVar, Any, Generic
+from typing import TypeVar, Any, Generic, Final
 
 Bot = TypeVar("Bot")
 Keyboard = TypeVar("Keyboard", bound=Any)
 Button = TypeVar("Button", bound=Any)
+
+PRIVATE_CHAT: Final[str] = "private"
 
 
 class KeyboardManager(Generic[Keyboard, Button]):
@@ -57,6 +59,9 @@ class KeyboardManager(Generic[Keyboard, Button]):
         self.keyboard.add(key_aquarius, key_pisces)
 
         return self.keyboard
+
+    def get_default_keyboard(self, chat_type):
+        return self.start_keyboard() if chat_type == PRIVATE_CHAT else None
 
     def __clear_keyborad(self):
         self.keyboard.keyboard.clear()
