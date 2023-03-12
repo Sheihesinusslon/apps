@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 29, from Saint-Petersburg.  
+My name is Nikita. I'm 29, from Saint-Petersburg. Currently I live and work as a software engineer in Barcelona, Spain.
   
 Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
@@ -16,10 +16,14 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/)   
 ### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
+## Most Recent  
+* [Whacky Telegram bot v.2.0](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot%20v.2.0) (Telebot, udpy (Urban Dictionary), openai (Chat GPT))  
+I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beatiful Soup that parsed the Word of the Day from Merriam Webster dictionary, and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this servise to openai as well. Well, Whacky bot is still whacky.  
   
 ## Projects  
 
 ### Web
+* [Whacky Telegram bot v.2.0](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot%20v.2.0) (Telebot, udpy (Urban Dictionary), openai (Chat GPT))  
 * [Digital Resume](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Web%20Resume) (Django)  
 * [WUHost Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/WUHost%20Telegram%20bot) (Telebot, aiogram, asyncio, sqlite3, VK API)
 * [Whacky Telegram bot](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot) (Telebot, requests, BeautifulSoup)
