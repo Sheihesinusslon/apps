@@ -1,53 +1,36 @@
 from functools import wraps
 from time import sleep
-from typing import Any, Callable, Generic, Optional, Protocol
+from typing import Any, Callable, Optional
 
-from telebot import TeleBot
 from telebot.formatting import mbold
 
-from app.config import cfg, GREETING_VOICE, WELCOME_STICKER
-from app.services.openai import GPT
+from app.config import GREETING_VOICE, WELCOME_STICKER, BotConfig
+from app.services.openai import GPT as GTPClient
 from app.services.urban_dict import UrbanDict
-from app.utils import Bot, CallBackData, greeting, Keyboard
-
-
-class WhackyBot(Protocol, Generic[Bot, Keyboard]):
-    """Protocol class to define a basic interface for a telegram bot"""
-
-    bot: Bot
-    keyboard_manager: Keyboard
-
-    def welcome(self) -> None:
-        """Method to greet a user"""
-        ...
-
-    def handle_text_messages(self) -> None:
-        """Method to process text prompt from a user"""
-        ...
-
-    def handle_keyboard_messages(self) -> None:
-        """Method to process keyboards prompt from a user"""
-        ...
-
-    def run_bot(self) -> None:
-        """Method to start a bot"""
-        ...
+from app.utils import CallBackData, greeting
+from app.interfaces import ITeleBot, IKeyboardManager
 
 
 class WhackyTeleBot:
     """Bot class to operate on TeleBot library API."""
 
-    # All currently supported bot commands
+    # All currently supported bots.py commands
     START = "start"
     HELP = "help"
     URBAN = "urban"
     GPT = "gpt"
 
-    def __init__(self, bot: TeleBot, keyboard_manager: Keyboard):
+    def __init__(
+        self,
+        bot: ITeleBot,
+        keyboard_manager: IKeyboardManager,
+        urban_dict: Optional[UrbanDict] = None,
+        gpt: Optional[GTPClient] = None,
+    ):
         self.bot = bot
         self.keyboard_manager = keyboard_manager
-        self._urban_dict: Optional[UrbanDict] = None
-        self._gpt: Optional[GPT] = None
+        self._urban_dict = urban_dict
+        self._gpt = gpt
 
     def welcome(self, message) -> None:
         """Sends a welcome sticker and a voice message to greet a user"""
@@ -123,7 +106,7 @@ class WhackyTeleBot:
 
         return cache
 
-    @cache_callback_request(delay=cfg.CALLBACK_CACHE_DELAY)
+    @cache_callback_request(delay=BotConfig.get_config().CALLBACK_CACHE_DELAY)
     def handle_keyboard_messages(self, call) -> None:
         """Handles keyboard input from a user, providing instructions or another keyboard sets to continue working
         with user's prompt/request"""
@@ -148,7 +131,7 @@ class WhackyTeleBot:
             self.bot.send_message(
                 call.message.chat.id,
                 response,
-                reply_markup=self.keyboard_manager.horoscope_keyword(),
+                reply_markup=self.keyboard_manager.horoscope_keyboard(),
             )
 
         if call.data == CallBackData.ZODIAC:
@@ -182,16 +165,16 @@ class WhackyTeleBot:
 
     @property
     def urban_dict(self):
-        """If not instantiated, creates a client to connect with Urban Dictionary service"""
+        """If not instantiated, creates a default client to connect with Urban Dictionary service"""
         if not self._urban_dict:
             self._urban_dict = UrbanDict()
         return self._urban_dict
 
     @property
     def gpt(self):
-        """If not instantiated, creates a client to connect with OpenAI service"""
+        """If not instantiated, creates a default client to connect with OpenAI service"""
         if not self._gpt:
-            self._gpt = GPT()
+            self._gpt = GTPClient()
         return self._gpt
 
     def _send_gpt_instruction(self, message):

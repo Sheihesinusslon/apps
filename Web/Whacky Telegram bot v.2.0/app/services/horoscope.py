@@ -1,6 +1,6 @@
 """
 This module currently is not in use. But it's preserved in the app as a reminder, that great things can start
-with small intentions. This bot was initially created to generate a horoscope, as a very first and only service
+with small intentions. This bots.py was initially created to generate a horoscope, as a very first and only service
 added in the app. But it gave inspiration to improve it and extend it later with additional functionality.
 
 Horoscope service is currently maintained by OpenAI module, that is able to generate it in no less whacky way.

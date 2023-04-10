@@ -1,24 +1,22 @@
 from enum import Enum, auto
 from random import choice
-from typing import TypeVar, Any, Generic, Final
+from typing import Final
 
-Bot = TypeVar("Bot")
-Keyboard = TypeVar("Keyboard", bound=Any)
-Button = TypeVar("Button", bound=Any)
+from app.interfaces.keyboards import ITeleButton, ITeleKeyboard
 
 PRIVATE_CHAT: Final[str] = "private"
 
 
-class KeyboardManager(Generic[Keyboard, Button]):
+class KeyboardManager:
     """Provides an interface to create different sets of Keyboards with Buttons"""
 
-    def __init__(self, keyboard: Keyboard, button: Button):
+    def __init__(self, keyboard: ITeleKeyboard, button: ITeleButton):
         self.keyboard = keyboard
         self.button = button
 
-    def start_keyboard(self) -> Keyboard:
-        """The main inline keyboard that the bot is going to reply every time"""
-        self.__clear_keyborad()
+    def start_keyboard(self) -> ITeleKeyboard:
+        """The main inline keyboard that the bots.py is going to reply every time"""
+        self.__clear_keyboard()
         # init keyboard and prepare keys
         key1 = self.button(text="Say Hello", callback_data=CallBackData.HELLO)
         key2 = self.button(
@@ -35,10 +33,10 @@ class KeyboardManager(Generic[Keyboard, Button]):
 
         return self.keyboard
 
-    def horoscope_keyword(self) -> Keyboard:
+    def horoscope_keyboard(self) -> ITeleKeyboard:
         """Prepare keys for inline keyboard, return keyboard"""
         # clear keyboard
-        self.__clear_keyborad()
+        self.__clear_keyboard()
         # prepare keys
         key_aries = self.button(text="Aries", callback_data=CallBackData.ZODIAC)
         key_taurus = self.button(text="Taurus", callback_data=CallBackData.ZODIAC)
@@ -70,7 +68,7 @@ class KeyboardManager(Generic[Keyboard, Button]):
         (in case it's a group chat)"""
         return self.start_keyboard() if chat_type == PRIVATE_CHAT else None
 
-    def __clear_keyborad(self):
+    def __clear_keyboard(self):
         self.keyboard.keyboard.clear()
 
 
@@ -111,6 +109,6 @@ class CallBackData(str, Enum):
 
 
 class WhackyBotValidationException(Exception):
-    """Custom validation exception for Whacky bot"""
+    """Custom validation exception for Whacky bots.py"""
 
     pass

@@ -1,12 +1,11 @@
-import telebot
-from app.config import cfg
+from app import init_bot_factory
+from app.config import BotConfig
 from app.logger import logger
-from app.services.whacky_bot import WhackyBot, WhackyTeleBot
-from app.utils import KeyboardManager, Bot
+from app.interfaces import ITeleBot, IWhackyBot
 
 
-def run_bot(bot: Bot, whacky_bot: WhackyBot):
-    """Runs bot and activates its interface"""
+def run_bot(bot: ITeleBot, whacky_bot: IWhackyBot):
+    """Function-adapter that delegates interface calls for Telebot library to WhackyBot"""
     @bot.message_handler(commands=[whacky_bot.START, whacky_bot.HELP])
     def welcome(message):
         return whacky_bot.welcome(message)
@@ -38,15 +37,8 @@ def run_bot(bot: Bot, whacky_bot: WhackyBot):
     whacky_bot.run_bot()
 
 
-def main():
-    """Creates a bot instance and runs it"""
-    bot = telebot.TeleBot(cfg.BOT_TOKEN, colorful_logs=True, parse_mode="markdown")
-    keyboard = KeyboardManager(keyboard=telebot.types.InlineKeyboardMarkup(), button=telebot.types.InlineKeyboardButton)
-    whacky_bot: WhackyBot = WhackyTeleBot(bot=bot, keyboard_manager=keyboard)
-
-    run_bot(bot, whacky_bot)
-
-
 if __name__ == "__main__":
+    cfg = BotConfig.get_config()
+    whacky_bot: IWhackyBot = init_bot_factory(cfg)
+    run_bot(whacky_bot.bot, whacky_bot)
     logger.info("Bot started ...")
-    main()

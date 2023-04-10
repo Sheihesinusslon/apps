@@ -1,9 +1,10 @@
 from requests import RequestException
 from telebot.formatting import mbold
-from udpy import UrbanClient
+from udpy import UrbanClient, UrbanDefinition
 
 from app.config import SERVICE_ERROR_MSG
 from app.logger import logger
+from app.interfaces import IUrbanClient
 
 
 class UrbanDict:
@@ -11,9 +12,9 @@ class UrbanDict:
     Calls UrbanClient API to get responses from Urban Dictionary.
     """
 
-    def __init__(self):
+    def __init__(self, urban_client: IUrbanClient = UrbanClient()):
         logger.info("Initializing connection with UrbanClient.")
-        self.client = UrbanClient()
+        self.client = urban_client
 
     def get_definitions(self, prompt: str) -> str:
         """Top-level function responsible to dispatch the request between other class functions based on the
@@ -47,7 +48,7 @@ class UrbanDict:
         """
         try:
             logger.info("Sending request to UrbanClient.")
-            defs = self.client.get_definition(word_or_phrase)
+            defs: UrbanDefinition = self.client.get_definition(word_or_phrase)
         except RequestException as err:
             logger.error(err)
             response = SERVICE_ERROR_MSG
@@ -69,7 +70,7 @@ class UrbanDict:
         """
         try:
             logger.info("Sending request to UrbanClient.")
-            rand = self.client.get_random_definition()
+            rand: UrbanDefinition = self.client.get_random_definition()
         except RequestException as err:
             logger.error(err)
             response = SERVICE_ERROR_MSG

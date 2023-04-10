@@ -2,11 +2,12 @@ from dataclasses import dataclass
 from typing import NewType
 
 import openai
-from openai import OpenAIError
 
-from app.config import cfg, SERVICE_ERROR_MSG
+from app.config import BotConfig, SERVICE_ERROR_MSG
 from app.logger import logger
+from app.interfaces import IGPT
 
+cfg: BotConfig = BotConfig.get_config()
 openai.api_key = cfg.OPENAI_TOKEN
 
 ModelName = NewType("ModelName", str)
@@ -19,6 +20,7 @@ class GPT:
     model_engine: ModelName = ModelName("text-davinci-003")
     max_tokens: int = 2048
     temperature: float = 0.5
+    openai_client: IGPT = openai.Completion
 
     def generate_response(self, prompt: str) -> str:
         """Low-level function to generate a request, send it to the model and return the response back
@@ -31,13 +33,13 @@ class GPT:
         """
         logger.info("Sending a request to OpenAI.")
         try:
-            completion = openai.Completion.create(
+            completion = self.openai_client.create(
                 engine=self.model_engine,
                 prompt=prompt,
                 max_tokens=self.max_tokens,
                 temperature=self.temperature,
             )
-        except OpenAIError as err:
+        except openai.OpenAIError as err:
             logger.error(err)
             response = SERVICE_ERROR_MSG
         else:

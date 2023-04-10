@@ -4,12 +4,12 @@ PYTHON = python3
 
 help:
 	@echo "---------------HELP-----------------"
-	@echo "To check codestyle type make setup"
+	@echo "To check codestyle type make check_codestyle"
 	@echo "To test the project type make test"
 	@echo "------------------------------------"
 
 test:
-	${PYTHON} -m pytest tests
+	${PYTHON} -m pytest --cov=app tests
 
 check_codestyle:
 	black --check app
