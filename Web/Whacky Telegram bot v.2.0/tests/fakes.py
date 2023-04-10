@@ -13,7 +13,7 @@ class FakeChat:
 
 @dataclass
 class FakeMessage:
-    chat: FakeChat = FakeChat()
+    chat: FakeChat = field(default_factory=FakeChat)
     text: str = "Some Message"
 
 
@@ -25,8 +25,8 @@ class FakeUser:
 @dataclass
 class FakeCall:
     data: CallBackData
-    message: FakeMessage = FakeMessage()
-    from_user: FakeUser = FakeUser()
+    message: FakeMessage = field(default_factory=FakeMessage)
+    from_user: FakeUser = field(default_factory=FakeUser)
 
 
 class FakeBot:
