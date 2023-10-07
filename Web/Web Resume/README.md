@@ -11,4 +11,4 @@ Later due to the problems with AWS account it was redeployed on [Pythonanywhere]
   
 ##### Credits to [freeCodeCamp](freeCodeCamp.org), Bobby Stearman & James Granger  
   
-![index](https://user-images.githubusercontent.com/75010755/154812645-9764e0d7-b611-4b68-ae4f-014c1998fe1d.png)
+![index]([https://user-images.githubusercontent.com/75010755/154812645-9764e0d7-b611-4b68-ae4f-014c1998fe1d.png](https://user-images.githubusercontent.com/75010755/273395617-246f3288-8d1e-41ad-810f-46f2868311ca.png)https://user-images.githubusercontent.com/75010755/273395617-246f3288-8d1e-41ad-810f-46f2868311ca.png)
