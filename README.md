@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 29, from Saint-Petersburg. Currently I live and work as a software engineer in Barcelona, Spain.
+My name is Nikita. I'm 30, from Saint-Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
   
 Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
@@ -19,7 +19,7 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ## Most Recent  
 * [Whacky Telegram bot v.2.0](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot%20v.2.0) (Telebot, udpy (Urban Dictionary), openai (Chat GPT))  
   
-I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beautiful Soup that parsed the Word of the Day from Merriam Webster dictionary and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this service to openai as well. Right, Whacky bot is still whacky.  
+I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beautiful Soup that parsed the Word of the Day from Merriam-Webster dictionary and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this service to openai as well. Right, Whacky bot is still whacky.  
 It's deployed on Heroku, [try it in Telegram](https://t.me/really_whacky_bot)  
   
 ## Projects  
