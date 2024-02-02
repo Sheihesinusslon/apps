@@ -48,6 +48,10 @@ It's deployed on Heroku, [try it in Telegram](https://t.me/really_whacky_bot)
   
 ![Coursera_page-0001](https://user-images.githubusercontent.com/75010755/117824586-485f7580-b277-11eb-9674-fc527adca8e8.jpg)
 [Link to the certificate](https://coursera.org/share/38ce97c10d43d57724876d61b0b24f05)  
+
+### ArjanCodes  
+![Certificate](https://github.com/Sheihesinusslon/apps/assets/75010755/38117139-2790-44a3-b2c6-2bb045e66845)  
+[Link to the certificate](https://app.kajabi.com/certificates/1afea203)  
   
   
 ### FreeCodeCamp
