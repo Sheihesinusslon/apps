@@ -42,6 +42,8 @@ It's deployed on Heroku, [try it in Telegram](https://t.me/really_whacky_bot)
 ### T-Systems  
   
 ![UNIX](https://user-images.githubusercontent.com/75010755/136327345-b1c2a2c9-a7dd-4e43-9ca5-4ce9c1f2284a.jpg)  
+![](https://github.com/Sheihesinusslon/apps/assets/75010755/20dcc26c-7842-4144-b2ce-9f069e73a879)  
+![Link to the Badge](https://skillsoft.digitalbadges-eu.skillsoft.com/3f2fcb01-9c0a-4f0e-8811-31e6c919ae62)  
   
   
 ### Coursera
