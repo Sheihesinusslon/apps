@@ -5,12 +5,12 @@ on:
     branches:
       - '*'
     paths:
-      - 'apps/Blockchain/**'
+      - apps/Blockchain/
   pull_request:
     branches:
       - '*'
     paths:
-      - 'apps/Blockchain/**'
+      - apps/Blockchain/
 
 jobs:
   setup:
