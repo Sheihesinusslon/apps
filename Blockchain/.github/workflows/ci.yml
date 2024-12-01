@@ -3,9 +3,13 @@ name: CI Pipeline
 on:
   push:
     branches:
+      - '*'
+    paths:
       - 'apps/Blockchain/**'
   pull_request:
     branches:
+      - '*'
+    paths:
       - 'apps/Blockchain/**'
 
 jobs:
