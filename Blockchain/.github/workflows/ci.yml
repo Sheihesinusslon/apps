@@ -3,10 +3,10 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - '*'
+      - 'apps/Blockchain/**'
   pull_request:
     branches:
-      - '*'
+      - 'apps/Blockchain/**'
 
 jobs:
   setup:
@@ -18,21 +18,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Change Directory to Blockchain
+        working-directory: apps/Blockchain
+        run: pwd
+
       - name: Install Poetry
         uses: abatilo/actions-poetry@v2
         with:
           poetry-version: 1.8.4
 
       - name: Cache Poetry Dependencies
-        id: cache-dependencies
         uses: actions/cache@v3
         with:
           path: ~/.cache/pypoetry
-          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          key: ${{ runner.os }}-poetry-${{ hashFiles('apps/Blockchain/poetry.lock') }}
           restore-keys: |
             ${{ runner.os }}-poetry-
 
       - name: Install Dependencies
+        working-directory: apps/Blockchain
         run: poetry install --with test
 
   lint:
@@ -45,9 +49,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Ruff (Auto-Formatting)
+        working-directory: apps/Blockchain
         run: poetry run ruff check --fix .
 
       - name: Run Pylint
+        working-directory: apps/Blockchain
         run: poetry run pylint src tests --fail-under=9.00
 
   test:
@@ -60,4 +66,5 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Tests with Coverage
+        working-directory: apps/Blockchain
         run: poetry run pytest --cov=src --cov-fail-under=10 tests
