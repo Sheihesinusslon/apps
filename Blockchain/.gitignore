@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# Unit test / coverage reports
+.coverage
+*.cover
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.py,cover
+
+# Logs
+*.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MyPy cache
+.mypy_cache/
+
+# Ruff cache
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# dotenv
+.env
+
+# Poetry
+poetry.lock
+
+# Local settings
+*.local

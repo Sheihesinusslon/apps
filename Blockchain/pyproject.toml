@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "blockchain"
+version = "0.0.0"
+description = "A blockchain implementation using FastAPI"
+authors = ["Nikita Gusev"]
+readme = "README.md"
+include = ["src", "tests", "README.md"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">3.10,<3.11"
+fastapi = "^0.115.5"
+pydantic = "^2.10.2"
+uvicorn = "^0.32.1"
+
+
+[tool.poetry.group.test.dependencies]
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+ruff = "*"
+
+[tool.ruff]
+line-length = 120
+select = ["E", "W", "F", "C"]
+ignore = ["E501"]
