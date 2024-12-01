@@ -2,7 +2,7 @@ from typing import Sequence, NewType
 
 from pydantic import BaseModel
 
-HashString = NewType('HashString', str)
+HashString = NewType("HashString", str)
 
 
 class Transaction(BaseModel):
