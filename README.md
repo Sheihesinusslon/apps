@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 29, from Saint-Petersburg. Currently I live and work as a software engineer in Barcelona, Spain.
+My name is Nikita. I'm 30, from Saint-Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
   
 Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
@@ -19,8 +19,8 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ## Most Recent  
 * [Whacky Telegram bot v.2.0](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot%20v.2.0) (Telebot, udpy (Urban Dictionary), openai (Chat GPT))  
   
-I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beatiful Soup that parsed the Word of the Day from Merriam Webster dictionary, and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this service to openai as well. Right, Whacky bot is still whacky.  
-It's deployed on Heroku, try it in Telegram: @really_whacky_bot  
+I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beautiful Soup that parsed the Word of the Day from Merriam-Webster dictionary and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this service to openai as well. Right, Whacky bot is still whacky.  
+It's deployed on Heroku, [try it in Telegram](https://t.me/really_whacky_bot)  
   
 ## Projects  
 
@@ -42,12 +42,20 @@ It's deployed on Heroku, try it in Telegram: @really_whacky_bot
 ### T-Systems  
   
 ![UNIX](https://user-images.githubusercontent.com/75010755/136327345-b1c2a2c9-a7dd-4e43-9ca5-4ce9c1f2284a.jpg)  
+![](https://github.com/Sheihesinusslon/apps/assets/75010755/20dcc26c-7842-4144-b2ce-9f069e73a879)  
+[Link to the Badge](https://skillsoft.digitalbadges-eu.skillsoft.com/3f2fcb01-9c0a-4f0e-8811-31e6c919ae62)  
   
   
 ### Coursera
   
 ![Coursera_page-0001](https://user-images.githubusercontent.com/75010755/117824586-485f7580-b277-11eb-9674-fc527adca8e8.jpg)
 [Link to the certificate](https://coursera.org/share/38ce97c10d43d57724876d61b0b24f05)  
+![Coursera_page-0001](https://github.com/Sheihesinusslon/apps/assets/75010755/48a6bbc3-ec12-4cbf-9438-3e64fa72066d)
+[Link to the certificate](https://coursera.org/share/0515218f1bb9f732972379e08d47e7fb)  
+  
+### ArjanCodes  
+![Certificate](https://github.com/Sheihesinusslon/apps/assets/75010755/38117139-2790-44a3-b2c6-2bb045e66845)  
+[Link to the certificate](https://app.kajabi.com/certificates/1afea203)  
   
   
 ### FreeCodeCamp
