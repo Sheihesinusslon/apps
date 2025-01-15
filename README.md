@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 31, from Saint-Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
+My name is Nikita. I'm 31, from Russia, Saint Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
   
 Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
@@ -41,6 +41,12 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ![UNIX](https://user-images.githubusercontent.com/75010755/136327345-b1c2a2c9-a7dd-4e43-9ca5-4ce9c1f2284a.jpg)  
 ![](https://github.com/Sheihesinusslon/apps/assets/75010755/20dcc26c-7842-4144-b2ce-9f069e73a879)  
 [Link to the Badge](https://skillsoft.digitalbadges-eu.skillsoft.com/3f2fcb01-9c0a-4f0e-8811-31e6c919ae62)  
+
+### AWS  
+![](https://github.com/Sheihesinusslon/apps/assets/75010755/20dcc26c-7842-4144-b2ce-9f069e73a879)  
+[Link to the Badge](https://www.credly.com/badges/78e13e0f-2065-45ba-9200-b55b718a496d/linked_in?t=sk64oc)  
+![](https://github.com/user-attachments/assets/7563f809-38e7-42de-b0c8-f1cc4c818b6d)  
+[Link to the certificate](https://coursera.org/share/16dc9a5fa4d64cbab548f4553258d79b)
   
   
 ### Coursera
