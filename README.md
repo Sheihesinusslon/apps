@@ -1,6 +1,6 @@
 # Hi there!  
 
-My name is Nikita. I'm 30, from Saint-Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
+My name is Nikita. I'm 31, from Saint-Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
   
 Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
@@ -9,7 +9,7 @@ So I chose Programming, and Python became my first language.
   
   
 I'd had no educational background in this department. 
-But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more.
+But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more. Currently, Coursera is my buddy.
   
   
  
@@ -17,10 +17,7 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
 ## Most Recent  
-* [Whacky Telegram bot v.2.0](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Web/Whacky%20Telegram%20bot%20v.2.0) (Telebot, udpy (Urban Dictionary), openai (Chat GPT))  
-  
-I decided to revitalize my bot with some new features. I did a complete refactoring, threw away the module with requests and Beautiful Soup that parsed the Word of the Day from Merriam-Webster dictionary and added openai library to make the bot virtually a proxy for Chat GPT. Also, I retired the horoscope module and deligated this service to openai as well. Right, Whacky bot is still whacky.  
-It's deployed on Heroku, [try it in Telegram](https://t.me/really_whacky_bot)  
+* Playing around with Blockchain in my [Toy Blockchain](https://github.com/Sheihesinusslon/toy_blockchain) (FastAPI) 
   
 ## Projects  
 
