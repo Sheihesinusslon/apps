@@ -2,7 +2,7 @@
 
 My name is Nikita. I'm 31, from Russia, Saint Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
   
-Some time ago I started learning Programming and Computer Science. I was contemplating my professional field.  
+In 2020 I started learning Programming and Computer Science. I was contemplating my professional field.  
 I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
 lose its utility and relevance in years.  
 So I chose Programming, and Python became my first language.  
