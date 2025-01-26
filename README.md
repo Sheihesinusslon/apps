@@ -17,6 +17,7 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
 ## Most Recent  
+* Participating in [Global Game Jam 2025](https://globalgamejam.org/games/2025/tba-8) and implementing [Jackie Chan's Flight of the Dragon](https://github.com/Sheihesinusslon/Jackie-chans-flight-of-the-dragon/tree/main) (Pygame)  
 * Playing around with Blockchain in my [Toy Blockchain](https://github.com/Sheihesinusslon/toy_blockchain) (FastAPI) 
   
 ## Projects  
@@ -32,7 +33,8 @@ But I started gaining knowledge with the help of the worldwide community, using 
 * [Salary app](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Custom%20apps/Salary%20app) (OOP)
 ### Games, many much fun
 * [Space Rangers](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Games/SpaceRangers) (Pygame, OOP)  
-* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Games/Snake) (Pygame)  
+* [Snake](https://github.com/Sheihesinusslon/portfolio-apps/tree/master/Games/Snake) (Pygame)
+* [Jackie Chan's Flight of the Dragon](https://github.com/Sheihesinusslon/Jackie-chans-flight-of-the-dragon/tree/main) (Pygame)  
   
 ## Courses  
 
