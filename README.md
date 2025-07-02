@@ -17,6 +17,7 @@ But I started gaining knowledge with the help of the worldwide community, using 
 ### [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
   
 ## Most Recent  
+* implementing a basic Neural Network in Python using Stochastic Gradient Descent algorithm in my [Toy Network](https://github.com/Sheihesinusslon/toy_network)  
 * Participating in [Global Game Jam 2025](https://globalgamejam.org/games/2025/tba-8) and implementing [Jackie Chan's Flight of the Dragon](https://github.com/Sheihesinusslon/Jackie-chans-flight-of-the-dragon/tree/main) (Pygame)  
 * Playing around with Blockchain in my [Toy Blockchain](https://github.com/Sheihesinusslon/toy_blockchain) (FastAPI) 
   
