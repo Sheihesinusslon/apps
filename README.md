@@ -1,4 +1,4 @@
-##### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/)[My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
+##### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/) [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
 # Hi there!  
 
 My name is Nikita. I'm 32, from Russia, Saint Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
