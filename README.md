@@ -1,4 +1,4 @@
-##### [My Digital Resume](http://sheihesinusslon.pythonanywhere.com/) [My LinkedIn Profile](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
+##### [[My Digital Resume]](http://sheihesinusslon.pythonanywhere.com/) [[My LinkedIn Profile]](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
 # Hi there!  
 
 My name is Nikita. I'm 32, from Russia, Saint Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
@@ -10,7 +10,7 @@ So I chose Programming, and Python became my first language.
   
   
 I'd had no educational background in this department. 
-But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more. Currently, Coursera is my buddy.
+But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more. Currently, Coursera is my buddy. I have a list of passed courses and certifications [right here](https://github.com/Sheihesinusslon/apps/blob/master/certs/README.md).  
 
   
 ## Most Recent  
