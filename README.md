@@ -1,28 +1,26 @@
-##### [[My Digital Resume]](http://sheihesinusslon.pythonanywhere.com/) [[My LinkedIn Profile]](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
+##### [[My LinkedIn Profile]](https://www.linkedin.com/in/nikita-gusev-05861b212/)  
 # Hi there!  
 
-My name is Nikita. I'm 32, from Russia, Saint Petersburg. Currently, I live and work as a software engineer in Barcelona, Spain.
+My name is Nikita. I'm from Russia, I live and work as a software engineer in Barcelona, Spain.
   
-In 2020 I started learning Programming and Computer Science. I was contemplating my professional field.  
-I thought about learning something new to me, that would be up-to-date, rewarding, and challenging. Something that wouldn't
-lose its utility and relevance in years.  
-So I chose Programming, and Python became my first language.  
-  
-  
-I'd had no educational background in this department. 
-But I started gaining knowledge with the help of the worldwide community, using the free educational content of CS50, Computer Science Center, MFTI, as well as some great free web resources like Codeacademy, FreeCodeCamp, Stepik, HackerRank, Codewars, JetBrains Academy, Exercism, and many more. Currently, Coursera is my buddy. I have a list of passed courses and certifications [right here](https://github.com/Sheihesinusslon/apps/blob/master/certs/README.md).  
+I work mainly in Python - APIs, data pipelines, and the infrastructure around them. Over the years I've worked on industrial IoT and on large banking platforms, building backends for Data Analytics and applied ML (Pandas, NumPy, scikit-learn, TensorFlow). Outside of work I do systems programming in C/C++ at School 42 Barcelona.  
+I have a list of all ever passed courses and certifications [right here](https://github.com/Sheihesinusslon/apps/blob/master/certs/README.md).  
 
   
 ## Most Recent  
+* Learning Raycasting techniques "pseudo-3D" graphics in [Cub3D](https://github.com/Sheihesinusslon/cub3d) aka DIY Wolfenstein 3D  
 * Creating a [Minishell](https://github.com/Sheihesinusslon/minishell) as part of the Common Core at School 42 
-* implementing a basic Neural Network in Python using Stochastic Gradient Descent algorithm in my [Toy Network](https://github.com/Sheihesinusslon/toy_network)  
+* Implementing a basic Neural Network in Python using Stochastic Gradient Descent algorithm in my [Toy Network](https://github.com/Sheihesinusslon/toy_network)  
 * Participating in [Global Game Jam 2025](https://globalgamejam.org/games/2025/tba-8) and implementing [Jackie Chan's Flight of the Dragon](https://github.com/Sheihesinusslon/Jackie-chans-flight-of-the-dragon/tree/main) (Pygame)  
 * Playing around with Blockchain in my [Toy Blockchain](https://github.com/Sheihesinusslon/toy_blockchain) (FastAPI) 
   
 ## Projects  
 
-### DIY  
+### 42  
 * [Minishell](https://github.com/Sheihesinusslon/minishell) (bare-bones C)
+* [Cub3D](https://github.com/Sheihesinusslon/cub3d) (C + 42's graphics lib)  
+
+### DIY  
 * [Toy Blockchain](https://github.com/Sheihesinusslon/toy_blockchain) (FastAPI)
 * [Toy Network](https://github.com/Sheihesinusslon/toy_network)  (Numpy)  
   
